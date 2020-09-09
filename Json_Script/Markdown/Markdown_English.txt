@@ -1,15 +1,15 @@
 ## intent:HotelSearch
-
-
+ 
+ 
 * Book me a [5_star_hotel](Star_Rate)(number)  on [19_jan](checkin)(Date)   near [kolkata](Location)(others)   
 * Book me a hotel [today](CheckinDay)(Day)  in [kolkata](Location)(others)
 * Book me a hotel in [kolkata](Location)(others)
 * Book me a hotel in [kolkata](Location)(others) on [today](CheckinDay)(Day)
 * Book me a hotel with checkin time [19_jan](checkin)(Date)   and checkout at [19_jan](Checkout)(Date) in [kolkata](Location)(others) 
 * book me a hotel for [2_person](NoOfTravellers)(number) for [kolkata](Location)(others)   
-* book me a hotel on [christmas](Event)(other)  for [2_person](NoOfTravellers)(number) 
+* book me a hotel  for [2_person](NoOfTravellers)(number) 
 * Book me a hall in [5_star_hotel](Star_Rate)(number)  in [kolkata](Location)(others)   
-* book me a hotel for [kolkata](Location)(others)    for my [unmarried](CustomerType)(others) to spend [2_days](NoOfDay)(number)
+* book me a hotel for [kolkata](Location)(others)    for my [unmarried](CustomerType)(others)
 *  Book a hotel for me   near [kolkata](Location)(others) .
 *  Book a room for [2_person](NoOfTravellers)(number)   in the [kolkata](Location)(others) 
 *  Book me a hotel for an [unmarried](CustomerType)(others)  in [kolkata](Location)(others) 
@@ -24,12 +24,12 @@
 *  Book a hotel for me  near [kolkata](Location)(others) .
 *  Book a hotel room near  [kolkata](Location)(others)  for [2_person](NoOfTravellers)(number)
 *  Book a hotel room for a family with [2_person](NoOfTravellers)(number)  in  [kolkata](Location)(others) 
-
+ 
   
-* book me hotel for this [christmas](Event)(others)  for [2_person](NoOfTravellers)(number) in [kolkata](Location)(others)   
+* book me hotel   for [2_person](NoOfTravellers)(number) in [kolkata](Location)(others)   
 *  Book the hotel on [19_jan](checkin)(Date)
 * Book me  in [kolkata](Location)(others)    for  [2_person](NoOfTravellers)(number)
-* Book me a hotel for [christmas](Event)(other)  on [19_jan](checkin)(Date)  
+* Book me a hotel   on [19_jan](checkin)(Date)  
 * book me a room in hotel at [kolkata](Location)(others)   
 * book me a room in hotel at [kolkata](Location)(others)    city
 * book me a hotel for 2 hrs in [kolkata](Location)(others)   
@@ -43,7 +43,7 @@
 * hotel with best management in least time
 * book me a room in mum [5_star_hotel](Star_Rate)(number) on [19_jan](checkin)(Date)   and in [kolkata](Location)(others)    for [19_jan](checkin)(Date)  
 * Book me a room in [5_star_hotel](Star_Rate)(number)  from 6:00 AM to 10:00 AM on [19_jan](checkin)(Date)   in [kolkata](Location)(others)   
-* Book me a hotel in [kolkata](Location)(others)    that is in range of [Rs_1000](Amount)(number) to [Rs_1000](Amount)(number) for [2_days](NoOfDay)(number) for [2_person](NoOfTravellers)(number)
+* Book me a hotel in [kolkata](Location)(others)    that is in range of [Rs_1000](Amount)(number) to [Rs_1000](Amount)(number)   for [2_person](NoOfTravellers)(number)
 * book me a hotel for [today](CheckinDay)(Day)  evening for my [kolkata](Location)(others) 
 * list of nearest hotels near me
 * list of most beautiful hotel around me
@@ -58,7 +58,7 @@
 * hotel near [kolkata](Location)(others)   
 * hotels at [kolkata](Location)(others)   
 * hotels room at [kolkata](Location)(others)   
-* hotel near [kolkata](Location)(others)    for [christmas](Event)(other)   [today](CheckinDay)(Day) 
+* hotel near [kolkata](Location)(others)       [today](CheckinDay)(Day) 
 *  I would like to checkin on [19_jan](checkin)(Date)
 *  I want to checkin on [19_jan](checkin)(Date) 
 *  I am willing to checkin on [19_jan](checkin)(Date) 
@@ -289,8 +289,8 @@
 *  I want to reserve a [2_rooms](NoOfRooms)(number)  [Duluxe](RoomType)(others)    room for [2_person](NoOfTravellers)(number)  people
 * i want hotel under [Rs_1000](Amount)(number)
 * i want 2 rooms under [Rs_1000](Amount)(number)
-* i want hotel under [Rs_1000](Amount)(number) for [2_days](NoOfDay)(number) 
-* I want 2 rooms under [Rs_1000](Amount)(number) for [2_days](NoOfDay)(number)  
+* i want hotel under [Rs_1000](Amount)(number)   
+* I want 2 rooms under [Rs_1000](Amount)(number)    
 * show me rooms under [Rs_1000](Amount)(number)
 * i want to reserve a hotel under [Rs_1000](Amount)(number)
 * show me the most expensive hotel
@@ -299,9 +299,9 @@
 * show me best [2_rooms](NoOfRooms)(number) 
 * i want 2 rooms for 6 people under [Rs_1000](Amount)(number)
 * show me hotels under [Rs_1000](Amount)(number)
-* i want to book this hotel for [2_days](NoOfDay)(number)  
-* i want to stay in the hotel for [2_days](NoOfDay)(number)  
-* can i book the hotel for [2_days](NoOfDay)(number)   days
+* i want to book this hotel    
+* i want to stay in the hotel    
+* can i book the hotel     days
 * i want to book [2_rooms](NoOfRooms)(number)    in this month
 * i want to book [2_rooms](NoOfRooms)(number)   in the coming week
 * i wish to book [2_rooms](NoOfRooms)(number) room in the coming monday
@@ -327,17 +327,17 @@
 * show me best [2_rooms](NoOfRooms)(number) that  have [wifi](Amenities)(others)  
 * i want 2 rooms for 6 people under [Rs_1000](Amount)(number) that  have [wifi](Amenities)(others)  
 * show me hotels under [Rs_1000](Amount)(number) that  have [wifi](Amenities)(others)  
-* i want to book this hotel for [2_days](NoOfDay)(number)  that  have [wifi](Amenities)(others)  
-* i want to stay in the hotel for [2_days](NoOfDay)(number)   that  have [wifi](Amenities)(others)  
-* can i book the hotel for [2_days](NoOfDay)(number)   days that  have [wifi](Amenities)(others)  
+* i want to book this hotel    that  have [wifi](Amenities)(others)  
+* i want to stay in the hotel     that  have [wifi](Amenities)(others)  
+* can i book the hotel     days that  have [wifi](Amenities)(others)  
 * i want to book [2_rooms](NoOfRooms)(number)   rooms with [wifi](Amenities)(others)   
 * Christmas i will book [2_rooms](NoOfRooms)(number)   with [wifi](Amenities)(others)  
 * show me best [2_rooms](NoOfRooms)(number) with [wifi](Amenities)(others)  
 * i want 2 rooms for 6 people under [Rs_1000](Amount)(number) with [wifi](Amenities)(others)  
 * show me hotels under [Rs_1000](Amount)(number) with [wifi](Amenities)(others)  
-* i want to book this hotel for [2_days](NoOfDay)(number)  with [wifi](Amenities)(others)  
-* i want to stay in the hotel for [2_days](NoOfDay)(number)   with [wifi](Amenities)(others)  
-* can i book the hotel for [2_days](NoOfDay)(number)   days with [wifi](Amenities)(others) 
+* i want to book this hotel    with [wifi](Amenities)(others)  
+* i want to stay in the hotel     with [wifi](Amenities)(others)  
+* can i book the hotel     days with [wifi](Amenities)(others) 
 * i want to book [2_rooms](NoOfRooms)(number)    in this month
 * i want to book [2_rooms](NoOfRooms)(number)   in the coming week
 * i wish to book [2_rooms](NoOfRooms)(number) room in the coming monday
@@ -353,15 +353,14 @@
 * I wish to book a hotel which has [5_star_hotel](Star_Rate)(number)  rating
 * I want to book a hotel which has [5_star_hotel](Star_Rate)(number)  rating
 * Hotels with  [wifi](Amenities)(others)
-* hotel in [kolkata](Location)(others)    for [christmas](Event)(other)                                                                 
+* hotel in [kolkata](Location)(others)                                                                  
 * list of [5_star_hotel](Star_Rate)(number)  in [kolkata](Location)(others)                                  
 * hotel with [Duluxe](RoomType)(others)
-* Hotel for [christmas](Event)(other)  must be [5_star_hotel](Star_Rate)(number)  and have [wifi](Amenities)(others)
-* Hotel for [christmas](Event)(other)  must be [5_star_hotel](Star_Rate)(number)  and have [wifi](Amenities)(others)                                                              
+* Hotel   must be [5_star_hotel](Star_Rate)(number)  and have [wifi](Amenities)(others)
+* Hotel   must be [5_star_hotel](Star_Rate)(number)  and have [wifi](Amenities)(others)                                                              
 * hotel must have [wifi](Amenities)(others)                                                                
 * hotels with best [wifi](Amenities)(others)
 * best hotels in [kolkata](Location)(others) 
-* hotels for [christmas](Event)(other)
 *  I need a hotel room with [wifi](Amenities)(others)  view only
 *  Want a hotel near [kolkata](Location)(others) 
 *  Find me hotels with less than [Rs_1000](Amount)(number) per room
@@ -393,7 +392,7 @@
 * [wifi](Amenities)(others) rooms hotels in [kolkata](Location)(others)   
 * hotels with [wifi](Amenities)(others)
 * hotels with  [wifi](Amenities)(others) and near [kolkata](Location)(others)
-* book me a hotel with event hall for [christmas](Event)(other) 
+* book me a hotel with event hall 
 * book me a hotel with [wifi](Amenities)(others) in india
 * book me a hotel near [kolkata](Location)(others)   for [unmarried](CustomerType)(others)
 * show me hotels and restaurants for [unmarried](CustomerType)(others)
@@ -401,11 +400,11 @@
 * list of hotels near [kolkata](Location)(others)   for [unmarried](CustomerType)(others)
 * book me a room in [5_star_hotel](Star_Rate)(number)  for my [unmarried](CustomerType)(others)
 * Book me a hall in [5_star_hotel](Star_Rate)(number)  in [kolkata](Location)(others)   
-* book me a hotel for [kolkata](Location)(others)    for my [unmarried](CustomerType)(others) to spend [2_days](NoOfDay)(number)
+* book me a hotel for [kolkata](Location)(others)    for my [unmarried](CustomerType)(others) 
 * Book me  in [kolkata](Location)(others)    for  [2_person](NoOfTravellers)(number)
-* Book me a hotel for [christmas](Event)(other)  on [19_jan](checkin)(Date)  
+* Book me a hotel )  on [19_jan](checkin)(Date)  
 * list of hotels in [kolkata](Location)(others)    with [wifi](Amenities)(others)
-
+ 
                                                                 
    
 ## intent:Negation
@@ -418,7 +417,7 @@
 *  Cancel [wifi](Amenities)(others)  appointment from my recent hotel booking?
 * Cancel [2_person](NoOfTravellers)(number)   from my  [hyatt](HotelName)(others)   booking. 
 * Cancel [5_star_hotel](Star_Rate)(number)  booking. 
-*  [christmas](Event)(other)  plan changed, cancel my hotel booking.
+*  plan changed, cancel my hotel booking.
 * End moment changes need to cancel  [kolkata](Location)(others)  booking. 
 * Cancel my [kolkata](Location)(others)  hotel booking.
 * Need to cancel my [5_star_hotel](Star_Rate)(number)  hotel booking of [kolkata](Location)(others) 
@@ -447,82 +446,78 @@
 *  I would like  to cancel  [2_rooms](NoOfRooms)(number)     room 
 *  I want to cancel  [2_rooms](NoOfRooms)(number)     room 
 *  cancel me a [2_rooms](NoOfRooms)(number)     room 
-*  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*. I’d like to cancel a [Duluxe](RoomType)(others) [5_star_hotel](Star_Rate)(number)  hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star_hotel](Star_Rate)(number)  hotel for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star_hotel](Star_Rate)(number) hotel for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star_hotel](Star_Rate)(number)  hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  in a [5_star_hotel](Star_Rate)(number) hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star](TravelRate)(number)  hotel for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star](TravelRate)(number) hotel for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star](TravelRate)(number)  hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  in a [5_star](TravelRate)(number) hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has   [5_star_hotel](Star_Rate)(number)  rate room for [2_days](NoOfDay)(number)     in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  which has   [5_star_hotel](Star_Rate)(number) rate room  for [2_days](NoOfDay)(number)    in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number) srate room  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star](TravelRate)(number)  and [5_star_hotel](Star_Rate)(number)  rate room for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star](TravelRate)(number)  and [5_star_hotel](Star_Rate)(number)  rate room  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*. I’d like to cancel a [Duluxe](RoomType)(others) [5_star_hotel](Star_Rate)(number)  hotel      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star_hotel](Star_Rate)(number)  hotel       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star_hotel](Star_Rate)(number) hotel       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room in a [5_star_hotel](Star_Rate)(number)  hotel      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  in a [5_star_hotel](Star_Rate)(number) hotel      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room    hotel       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room   hotel       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room    hotel      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room    hotel      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has   [5_star_hotel](Star_Rate)(number)  rate room       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  which has   [5_star_hotel](Star_Rate)(number) rate room       in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  which has   [5_star_hotel](Star_Rate)(number) srate room  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has   [5_star_hotel](Star_Rate)(number)  rate room      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has   [5_star_hotel](Star_Rate)(number)  rate room  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
 *  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star_hotel](Star_Rate)(number) hotel
 *  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star_hotel](Star_Rate)(number) hotel
 *  I wish to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star_hotel](Star_Rate)(number) hotel 
 *  I would like  to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  which has [5_star_hotel](Star_Rate)(number) hotel 
 *  I want to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room  which has [5_star_hotel](Star_Rate)(number) hotel 
 *  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room   which has [5_star_hotel](Star_Rate)(number) hotel
-*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star](TravelRate)(number)  and [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
-*  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has [5_star](TravelRate)(number) and [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
-*  I wish to cancel a [Duluxe](RoomType)(others) which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
-*  I would like  to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room  which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
-*  I want to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
-*  cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room  which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
-*  cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room 
-*  I’d like to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room
-*  I wish to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room
-*  I would like  to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room
-*  I want to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number)  rate and [5_star_hotel](Star_Rate)(number)  rate room
+*  cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has   [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
+*  I’d like to cancel a [2_rooms](NoOfRooms)(number)    [Duluxe](RoomType)(others) room which has  [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
+*  I wish to cancel a [Duluxe](RoomType)(others) which has   [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
+*  I would like  to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room  which has   [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
+*  I want to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room which has   [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
+*  cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room  which has   [5_star_hotel](Star_Rate)(number)  rate room for [2_person](NoOfTravellers)(number) people
+*  cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has   [5_star_hotel](Star_Rate)(number)  rate room 
+*  I’d like to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has   [5_star_hotel](Star_Rate)(number)  rate room
+*  I wish to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has   [5_star_hotel](Star_Rate)(number)  rate room
+*  I would like  to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has   [5_star_hotel](Star_Rate)(number)  rate room
+*  I want to cancel a [2_rooms](NoOfRooms)(number)   rooms [Duluxe](RoomType)(others) room for [2_person](NoOfTravellers)(number) people which has   [5_star_hotel](Star_Rate)(number)  rate room
 *  I’d like to cancel  a hotel 
 *  I wish to cancel  a hotel 
 *  I would like  to cancel a  hotel 
 *  I want to cancel  a hotel 
 *  cancel me  a hotel 
-*  I’d like to cancel  a hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I wish to cancel  a hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I would like  to cancel  a hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I want to cancel  a hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I’d like to cancel a [Duluxe](RoomType)(others) [5_star_hotel](Star_Rate)(number)  hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I wish to cancel  a hotel [5_star_hotel](Star_Rate)(number)  hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*   I would like  to cancel  a hotel [5_star_hotel](Star_Rate)(number) hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I want to cancel  a hotel [5_star_hotel](Star_Rate)(number)  hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  cancel  a hotel [5_star_hotel](Star_Rate)(number) hotel for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I’d like to cancel  a hotel [5_star](TravelRate)(number) rate  for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) 
-*  I wish to cancel  a hotel [5_star](TravelRate)(number)  travel rate for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others)
-*  I would like  to cancel  a hotel [5_star](TravelRate)(number) rate  for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others)
-*  I want to cancel  a hotel [5_star](TravelRate)(number)  travel rate for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others)
-*  cancel  a hotel which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I’d like to cancel  a hotel which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I wish to cancel  a hotel  which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I would like  to cancel  a hotel  which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate roo  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  I want to cancel  a hotel which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_days](NoOfDay)(number)    nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  cancel  a hotel which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate roo  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
-*  cancel a [Villa](PropertyType)(others) sort of     hotel which has [5_star_hotel](Star_Rate)(number) hotel
+*  I’d like to cancel  a hotel      nights in [hyatt](HotelName)(others) 
+*  I wish to cancel  a hotel      nights in [hyatt](HotelName)(others) 
+*  I would like  to cancel  a hotel      nights in [hyatt](HotelName)(others) 
+*  I want to cancel  a hotel      nights in [hyatt](HotelName)(others) 
+*  I’d like to cancel a [Duluxe](RoomType)(others) [5_star_hotel](Star_Rate)(number)  hotel      nights in [hyatt](HotelName)(others) 
+*  I wish to cancel  a hotel [5_star_hotel](Star_Rate)(number)  hotel      nights in [hyatt](HotelName)(others) 
+*   I would like  to cancel  a hotel [5_star_hotel](Star_Rate)(number) hotel      nights in [hyatt](HotelName)(others) 
+*  I want to cancel  a hotel [5_star_hotel](Star_Rate)(number)  hotel      nights in [hyatt](HotelName)(others) 
+*  cancel  a hotel [5_star_hotel](Star_Rate)(number) hotel      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  cancel  a hotel which has  [5_star_hotel](Star_Rate)(number) star rate room      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I’d like to cancel  a hotel which has [5_star_hotel](Star_Rate)(number) star rate room      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I wish to cancel  a hotel  which has  [5_star_hotel](Star_Rate)(number) star rate room      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I would like  to cancel  a hotel  which has  [5_star_hotel](Star_Rate)(number) star rate roo  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  I want to cancel  a hotel which has [5_star_hotel](Star_Rate)(number) star rate room      nights in [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  cancel  a hotel which has  [5_star_hotel](Star_Rate)(number) star rate roo  [hyatt](HotelName)(others) at [kolkata](Location)(others) 
+*  cancel the    hotel which has [5_star_hotel](Star_Rate)(number) hotel
 *  I’d like to cancel  a hotel which has [5_star_hotel](Star_Rate)(number) hotel
 *  I wish to cancel  a hotel which has [5_star_hotel](Star_Rate)(number) hotel 
-*  I would like  to cancel a [Villa](PropertyType)(others) sort of     hotel  which has [5_star_hotel](Star_Rate)(number) hotel 
-*  I want to cancel a  [Villa](PropertyType)(others) sort of     hotel  which has [5_star_hotel](Star_Rate)(number) hotel 
-*  cancel a [Villa](PropertyType)(others) sort of     hotel   which has [5_star_hotel](Star_Rate)(number) hotel
-*  cancel a  [Villa](PropertyType)(others) sort of     hotel which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
-*  I’d like to cancel  a hotel which has [5_sta](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
-*  I wish to cancel a [Duluxe](RoomType)(others) v which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
-*  I would like  to cancel  a hotel  which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
-*  I want to cancel  a hotel which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
-*  cancel  a hotel  which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
-*  cancel  a hotel for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room 
-*  I’d like to cancel  a hotel for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room
-*  I wish to cancel  a hotel for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room
-*  I would like  to cancel  a hotel for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room
-*  I want to cancel  a hotel for [2_person](NoOfTravellers)(number) people which has [5_star](TravelRate)(number) rate and [5_star_hotel](Star_Rate)(number) star rate room
+*  I would like  to cancel the  hotel  which has [5_star_hotel](Star_Rate)(number) hotel 
+*  I want to cancel the     hotel  which has [5_star_hotel](Star_Rate)(number) hotel 
+*  cancel the    hotel   which has [5_star_hotel](Star_Rate)(number) hotel
+*  cancel  the     hotel   and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
+*  I’d like to cancel  a hotel which has  [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
+*  I wish to cancel a [Duluxe](RoomType)(others)   and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
+*  I would like  to cancel  a hotel    and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
+*  I want to cancel  a hotel   and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
+*  cancel  a hotel    and [5_star_hotel](Star_Rate)(number) star rate room for [2_person](NoOfTravellers)(number) people
+*  cancel  a hotel for [2_person](NoOfTravellers)(number) people   and [5_star_hotel](Star_Rate)(number) star rate room 
+*  I’d like to cancel  a hotel for [2_person](NoOfTravellers)(number) people   and [5_star_hotel](Star_Rate)(number) star rate room
+*  I wish to cancel  a hotel for [2_person](NoOfTravellers)(number) people   and [5_star_hotel](Star_Rate)(number) star rate room
+*  I would like  to cancel  a hotel for [2_person](NoOfTravellers)(number) people   and [5_star_hotel](Star_Rate)(number) star rate room
+*  I want to cancel  a hotel for [2_person](NoOfTravellers)(number) people   and [5_star_hotel](Star_Rate)(number) star rate room
 *  I’d like to cancel  a hotel 
 *  I wish to cancel  a hotel 
 *  I would like  to cancel  a hotel 
@@ -531,10 +526,7 @@
  
  
 ## intent:Affirmation
-
-* book me a room in [hyatt](HotelName)(others)
-* Book me a hall for [christmas](Event)(other)  in hotel [hyatt](HotelName)(others)
-* Book me a hall for [christmas](Event)(other)  in hotel [hyatt](HotelName)(others)
+ 
 *  you can confirm this 
 *  sure confirmed we can proceed with this
 *  Confirmed!
@@ -571,55 +563,50 @@
 * [19_jan](checkin)(Date) is confirmed in hotel [hyatt](HotelName)(others)  
 * [2_rooms](NoOfRooms)(number)  is confirmed in hotel [hyatt](HotelName)(others)  
 * [Rs_1000](Amount)(number)  is confirmed in hotel [hyatt](HotelName)(others)  
-* [2_days](NoOfDay)(number) is confirmed in hotel [hyatt](HotelName)(others)  
 * [hyatt](HotelName)(others) is confirmed in hotel [hyatt](HotelName)(others)  
 * [Duluxe](RoomType)(others)   is confirmed in hotel [hyatt](HotelName)(others)  
 * [wifi](Amenities)(others)   is confirmed in hotel [hyatt](HotelName)(others)  
 * [unmarried](CustomerType)(others) is confirmed in hotel [hyatt](HotelName)(others)  
-* [christmas](Event)(other) is confirmed in hotel [hyatt](HotelName)(others)  
 * [kolkata](Location)(others) is confirmed in hotel [hyatt](HotelName)(others)  
 * [19_jan](checkin)(Date) is confirmed Book it 
 * [2_rooms](NoOfRooms)(number)  is confirmed Book it 
 * [Rs_1000](Amount)(number)  is confirmed Book it 
-* [2_days](NoOfDay)(number) is confirmed Book it 
 * [hyatt](HotelName)(others) is confirmed Book it 
 * [Duluxe](RoomType)(others)   is confirmed Book it 
 * [wifi](Amenities)(others)   is confirmed Book it 
 * [unmarried](CustomerType)(others) is confirmed Book it 
-* [christmas](Event)(other) is confirmed Book it 
+* Its confirmed Book it 
 * [kolkata](Location)(others) is confirmed Book it 
 * confirm [19_jan](checkin)(Date) 
 * confirm [2_rooms](NoOfRooms)(number) 
 * confirm [Rs_1000](Amount)(number)  
-* confirm [2_days](NoOfDay)(number)
 * confirm [hyatt](HotelName)(others) 
 * confirm [Duluxe](RoomType)(others)   
 * confirm [wifi](Amenities)(others)  
 * confirm [unmarried](CustomerType)(others) 
-* confirm [christmas](Event)(other) 
+* confirm 
 * confirm [kolkata](Location)(others) 
 * go for [19_jan](checkin)(Date) 
 * go for [2_rooms](NoOfRooms)(number) 
 * go for [Rs_1000](Amount)(number)  
-* go for [2_days](NoOfDay)(number)
+* go  
 * go for [hyatt](HotelName)(others) 
 * go for [Duluxe](RoomType)(others)   
 * go for [wifi](Amenities)(others)  
 * go for [unmarried](CustomerType)(others) 
-* go for [christmas](Event)(other) 
 * go for [kolkata](Location)(others) 
 * go for [19_jan](checkin)(Date) 
 * sure go for [2_rooms](NoOfRooms)(number) 
 * sure go for [Rs_1000](Amount)(number)  
-* sure go for [2_days](NoOfDay)(number)
+* sure go  
 * sure go for [hyatt](HotelName)(others) 
 * sure go for [Duluxe](RoomType)(others)   
 * sure go for [wifi](Amenities)(others)  
 * sure go for [unmarried](CustomerType)(others) 
-* sure go for [christmas](Event)(other) 
+* sure go 
 * sure go for [kolkata](Location)(others)
 * want [2_rooms](NoOfRooms)(number)  for [2_person](NoOfTravellers)(number)
-
+ 
 ## intent:Affirmation+Payment
 *  Great,I am willing to proceed with [Rs_1000](Amount)(number)   for this room
 *  I want to pay [Rs_1000](Amount)(number)      for this Room
@@ -647,21 +634,21 @@
 *  i paid 
 *  I will pay for [2_rooms](NoOfRooms)(number) 
 *  I will pay for [Rs_1000](Amount)(number)  
-*  I will pay for [2_days](NoOfDay)(number)
+*  I will pay  
 *  I will pay for [hyatt](HotelName)(others) 
 *  I will pay for [Duluxe](RoomType)(others)   
 *  I will pay for [wifi](Amenities)(others)  
 *  I will pay for [unmarried](CustomerType)(others) 
-*  I will pay for [christmas](Event)(other) 
+*  I will pay 
 *  I will pay for [kolkata](Location)(others)
 *  I paid for [2_rooms](NoOfRooms)(number) 
 *  yes,I paid for [Rs_1000](Amount)(number)  
-*  I paid for [2_days](NoOfDay)(number)
+*  I paid  
 *  I paid for [hyatt](HotelName)(others) 
 *  yes,I paid for [Duluxe](RoomType)(others)   
 *  I paid for [wifi](Amenities)(others)  
 *  I paid for [unmarried](CustomerType)(others) 
-*  yes,I paid for [christmas](Event)(other) 
+*  yes,I paid 
 *  I paid for [kolkata](Location)(others)          
  
  
@@ -732,14 +719,13 @@
 * show [hyatt](HotelName)(others)
 * chec whether [hyatt](HotelName)(others) has [wifi](Amenities)(others)
 * are [unmarried](CustomerType)(others) allowed in [hyatt](HotelName)(others)
-* which type of property is [hyatt](HotelName)(others)
 * show me room in [hyatt](HotelName)(others) which has [wifi](Amenities)(others)
 * book me the same room as before in the hotel [hyatt](HotelName)(others)
 * what is the rating of the hotel [hyatt](HotelName)(others)
 * is [hyatt](HotelName)(others) good for [unmarried](CustomerType)(others)
 * is there any [Duluxe](RoomType)(others) room  in  [hyatt](HotelName)(others) for [unmarried](CustomerType)(others)
 * is there any room in [hyatt](HotelName)(others) which can accomodate [2_person](NoOfTravellers)(number) in a room
-* is [hyatt](HotelName)(others) is [Villa](PropertyType)(others)
+* is [hyatt](HotelName)(others) good?
 * what are rating of the hotel [hyatt](HotelName)(others)
 * who owns [hyatt](HotelName)(others)
 * is [hyatt](HotelName)(others) chinese hotel
@@ -813,17 +799,17 @@
         rupee 900
         rupees 110
     Checkout
-        1 Jan
-        2 Jan
+        1st Jan
+        2nd Jan
         3 Apr
-        4 April
-        5 april
+        4th April
+        5 th april
         6 Jan
         7 Feb
-        8 Jan
+        8th Jan
         12 Jan
         24 Jan
-        26 Feb
+        26th Feb
         28 Jan
         17 Jan
         19 Mar
@@ -832,7 +818,7 @@
         8 may
         31 june
         23 jun
-        14 june
+        14th june
         22 july
         15 july
         14 jul
@@ -849,13 +835,13 @@
         27 october
         10 oct
         9 oct
-        4 october
-        5 nov
+        4 th october
+        5th nov
         9 nov
         2 november
-        8 november
+        8th november
         12 dec
-        21 dec
+        21st dec
         23 december
         31 december
         jan 29 
@@ -868,17 +854,17 @@
         april 18
         may 19
     checkin
-        1 Jan
-        2 Jan
+          1st Jan
+        2nd Jan
         3 Apr
-        4 April
-        5 april
+        4th April
+        5 th april
         6 Jan
         7 Feb
-        8 Jan
+        8th Jan
         12 Jan
         24 Jan
-        26 Feb
+        26th Feb
         28 Jan
         17 Jan
         19 Mar
@@ -887,7 +873,7 @@
         8 may
         31 june
         23 jun
-        14 june
+        14th june
         22 july
         15 july
         14 jul
@@ -904,13 +890,13 @@
         27 october
         10 oct
         9 oct
-        4 october
-        5 nov
+        4 th october
+        5th nov
         9 nov
         2 november
-        8 november
+        8th november
         12 dec
-        21 dec
+        21st dec
         23 december
         31 december
         jan 29 
@@ -1232,8 +1218,6 @@
         Villa
         Serviced apartment
         Boutique hotel
-
-
-
-
-
+ 
+ 
+ 
