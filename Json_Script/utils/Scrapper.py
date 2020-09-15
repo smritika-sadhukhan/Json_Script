@@ -9,6 +9,27 @@ Original file is located at
 """
 import numpy as np
 
+def  dataframe_to_txt(df,action,previous_intent):
+    list5=[]
+    for i in df.values:
+      if  action==1 and previous_intent==1 :
+           if type(i[0])!=float: 
+                s='* '+str(i[0])+', '+i[1][:]+','+i[2][1:]
+           else:
+                s=i[2]
+      elif  action==0 and previous_intent==1 :
+           if type(i[0])!=float: 
+               s='* '+str(i[0])+','+i[1][1:]
+      elif  action==1 and previous_intent==0 :
+           if type(i[0])!=float: 
+               s='* '+str(i[0])+','+i[1][1:]
+      elif  type(i[0])!=float and action==0 and previous_intent==0: 
+          s=i[0][1:]
+      elif type(i[0])==float:
+          pass
+      
+      list5.append(s)
+    return(list5)
 def markdown_formatter(s):
     list1=[]
     list2=[]
@@ -78,7 +99,7 @@ def intent_balancer(f):
     list_repeat.append((int((max(list2)/i)*(max(list2)/i))))
   return(list33[1:],list_repeat,list44)
  
-f=open('/content/Json_Script/Json_Script/Markdown/mark.txt','r') 
+f=open('/content/Json_Script/Json_Script/Markdown/lookups.txt','r') 
  
 def entity_fetcher(f):
   list1=[]
