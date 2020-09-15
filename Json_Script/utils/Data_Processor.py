@@ -73,3 +73,32 @@ def data_Processer(data):
  df1['label']=list222
  return(df,df1,list3)
 
+def NLU_creator(data,action=1,previous_intent=1):
+  intent=[]
+  text=[]
+  for i in data['Hotel_Dataset']:
+    intent.append('+'.join(i['intent']))
+    text.append(i['text'])
+  NLU=pd.DataFrame()
+  NLU['text']=text
+  NLU['intent']=intent
+  fff=[]
+  for i in data['Hotel_Dataset']:
+    dict12={}
+    for j in i:
+      if j=='text':
+          
+          if  previous_intent==1 and action==1:
+              dict12['previous_intent']=i[j].split()[0][:-1]
+              dict12['action']=i[j].split()[1][:-1]
+              dict12[j]=' '.join(i[j].split()[2:])
+          elif  previous_intent==1 and action==0:
+              dict12['previous_intent']=i[j].split()[0][:-1]
+              dict12[j]=' '.join(i[j].split()[1:])
+          elif  previous_intent==0 and action==1:
+              dict12['action']=i[j].split()[0][:-1]
+              dict12[j]=' '.join(i[j].split()[1:])
+      else:
+          dict12[j]=i[j]
+    fff.append(dict12)
+  return fff,NLU
