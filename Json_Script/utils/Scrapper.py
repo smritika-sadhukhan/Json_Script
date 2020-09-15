@@ -7,6 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1cDW5lWg4gQ5W2zqt50CHJok0S9-Lva7g
  
 """
+
+markdown_file_location='/content/Json_Script/Json_Script/Markdown/mark.txt'
+lookup_location='/content/Json_Script/Json_Script/Markdown/lookups'
+
+
 import numpy as np
 
 def  dataframe_to_txt(df,action,previous_intent):
@@ -57,7 +62,7 @@ def markdown_formatter(s):
     return(list1)
     
 def intent_balancer(f):  
-  f=open('/content/Json_Script/Json_Script/Markdown/mark.txt','r')
+  f=open(markdown_file_location,'r')
   list1=[]
   list2=[]
   for i in f:
@@ -99,7 +104,7 @@ def intent_balancer(f):
     list_repeat.append((int((max(list2)/i)*(max(list2)/i))))
   return(list33[1:],list_repeat,list44)
  
-f=open('/content/Json_Script/Json_Script/Markdown/lookups','r') 
+f=open(lookup_location,'r') 
  
 def entity_fetcher(f):
   list1=[]
