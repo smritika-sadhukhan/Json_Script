@@ -36,7 +36,7 @@ def markdown_formatter(s):
     return(list1)
     
 def intent_balancer(f):  
-  f=open('Markdown_English.txt','r')
+  f=open('/content/Json_Script/Json_Script/Markdown/Markdown_English.txt','r')
   list1=[]
   list2=[]
   for i in f:
@@ -78,7 +78,7 @@ def intent_balancer(f):
     list_repeat.append((int((max(list2)/i)*(max(list2)/i))))
   return(list33[1:],list_repeat,list44)
  
-f=open('Markdown_English.txt','r') 
+f=open('/content/Json_Script/Json_Script/Markdown/Markdown_English.txt','r') 
  
 def entity_fetcher(f):
   list1=[]
