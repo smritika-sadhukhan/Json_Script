@@ -1,0 +1,266 @@
+{10} no_intent,I want to buy this [TypeOfInsurance:TypeOfInsurance] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,I want to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,I am going to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , want to buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,Will go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,Buy  [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,show [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"Confirm my [InsuranceBrand:InsuranceBrand] for [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,I am wiling to go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,I would like to buy this [TypeOfInsurance:TypeOfInsurance] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,I  would like to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,I am a [Gender:Gender] who would like to buy a [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , would like to buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,I want to go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,Will go to [Country:Country] on [Date:Date] so update me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,I am going to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , want to buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,Will go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,Buy  [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,show [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"Confirm my [InsuranceBrand:InsuranceBrand] for [TypeOfInsurance:TypeOfInsurance]
+{10} ",InsurancePremium
+{10} no_intent,I am wiling to go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,I would like to buy this [TypeOfInsurance:TypeOfInsurance] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,I  would like to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , would like to buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,I want to go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,Will go to [Country:Country] on [Date:Date] so update me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,I am going to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , want to buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,Will go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,Buy  [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,show [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"Confirm my [InsuranceBrand:InsuranceBrand] for [TypeOfInsurance:TypeOfInsurance]
+{10} ",InsurancePremium
+{10} no_intent,I am wiling to go to [Country:Country] on [Date:Date] so show me all the brand with respect to [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
+{10} no_intent,I would like to buy this [TypeOfInsurance:TypeOfInsurance] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,I  would like to buy this [TypeOfInsurance:TypeOfInsurance] from [InsuranceBrand:InsuranceBrand] for my [Relationship:Relationship] whose age is [Age:Age] ,InsurancePremium
+{10} no_intent,"My gender is [Gender:Gender] and my age is [Age:Age] , would like to buy [TypeOfInsurance:TypeOfInsurance] ",InsurancePremium
+{10} no_intent,Can you show me some options for [TypeOfInsurance:TypeOfInsurance] insurance for [Relationship:Relationship] ,InsurancePremium
+{10} no_intent,Do you have some good options for [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,For [NoOfPax:NoOfPax] people what are the available options for [TypeOfInsurance:TypeOfInsurance] insurance to [Country:Country] ,InsurancePremium
+{10} no_intent,For [NoOfPax:NoOfPax] people show us the  available options for [TypeOfInsurance:TypeOfInsurance] insurance to [Country:Country] ,InsurancePremium
+{10} no_intent,For [NoOfPax:NoOfPax] people update us the  available options for [TypeOfInsurance:TypeOfInsurance] insurance to [Country:Country] ,InsurancePremium
+{10} no_intent,For [NoOfPax:NoOfPax] people mention us the  options for [TypeOfInsurance:TypeOfInsurance] insurance to [Country:Country] ,InsurancePremium
+{10} no_intent,we are  [NoOfPax:NoOfPax] people willing to traval
+{10} no_intent,Get a [TypeOfInsurance:TypeOfInsurance] insurance for me,InsurancePremium
+{10} no_intent,Get me a [TypeOfInsurance:TypeOfInsurance] insurance ,InsurancePremium
+{10} no_intent,Get me a few [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,get me some [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,I am a [Gender:Gender] who is in dire need of a travel insurance on his [TypeOfInsurance:TypeOfInsurance] to [Country:Country] ,InsurancePremium
+{10} no_intent,I am looking for a [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,I am looking for a [TypeOfInsurance:TypeOfInsurance] insurance for [Relationship:Relationship] ,InsurancePremium
+{10} no_intent,I am travelling to [Country:Country] for which I need a [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,I am travelling to [Country:Country] with [NoOfPax:NoOfPax] people and need an insurance,InsurancePremium
+{10} no_intent,I am travelling to [Country:Country] with [Relationship:Relationship] and need a [TypeOfInsurance:TypeOfInsurance] insurance for that,InsurancePremium
+{10} no_intent,I need a [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,I need a [TypeOfInsurance:TypeOfInsurance] insurance for [Relationship:Relationship] ,InsurancePremium
+{10} no_intent,I need to get a [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,I want [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,Need a [TypeOfInsurance:TypeOfInsurance] insurance for [Relationship:Relationship] ,InsurancePremium
+{10} no_intent,Show [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,Show [TypeOfInsurance:TypeOfInsurance] insurance for [NoOfPax:NoOfPax] travelling to [Country:Country] ,InsurancePremium
+{10} no_intent,Show a [TypeOfInsurance:TypeOfInsurance] insurance for [Relationship:Relationship] ,InsurancePremium
+{10} no_intent,Show me a [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,Show me a few [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,Show me all the available [TypeOfInsurance:TypeOfInsurance] insurances for travelling to [Country:Country] ,InsurancePremium
+{10} no_intent,Show some [TypeOfInsurance:TypeOfInsurance] insurances,InsurancePremium
+{10} no_intent,What all are the available options for [TypeOfInsurance:TypeOfInsurance] insurance ,InsurancePremium
+{10} no_intent,What all options do you have for [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,What are the [TypeOfInsurance:TypeOfInsurance] insurances available for travelling to [Country:Country] ,InsurancePremium
+{10} no_intent,What are the available [Relationship:Relationship] for me,InsurancePremium
+{10} no_intent,What are the available [TypeOfInsurance:TypeOfInsurance] insurance for [Relationship:Relationship] ,InsurancePremium
+{10} no_intent,What are the available [TypeOfInsurance:TypeOfInsurance] insurance options for a [Gender:Gender] travelling to [Country:Country] ,InsurancePremium
+{10} no_intent,What are the options for [TypeOfInsurance:TypeOfInsurance] insurance,InsurancePremium
+{10} no_intent,What are the viable options for [TypeOfInsurance:TypeOfInsurance] insurance at your platform,InsurancePremium
+{10} no_intent,Which all [TypeOfInsurance:TypeOfInsurance] insurances are available at your platfom,InsurancePremium
+{10} no_intent,Which all [TypeOfInsurance:TypeOfInsurance] insurances are available for me,InsurancePremium
+{10} no_intent,Which all [TypeOfInsurance:TypeOfInsurance] insurances do you offer,InsurancePremium
+{10} no_intent,Can you recharge my [Operator:Operator] number?,Recharge
+{10} no_intent,I want to recharge [Operator:Operator] number.,Recharge
+{10} no_intent,I would like to recharge my [Operator:Operator] number.,Recharge
+{10} no_intent,Recharge [Operator:Operator] number.,Recharge
+{10} no_intent,Recharge my [Operator:Operator] number.,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] number?,Recharge
+{10} no_intent,I want to recharge [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Recharge my [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Recharge by [amount:amount] ,Recharge
+{10} no_intent,I want to recharge my number with [amount:amount] ,Recharge
+{10} no_intent,I woud like to recharge my number by [amount:amount] ,Recharge
+{10} no_intent,with [amount:amount] recharge my number,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] [Operator:Operator] number?,Recharge
+{10} no_intent,I want to recharge my [RechargeType:RechargeType] [Operator:Operator] number.,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] [Operator:Operator] number.,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] [Operator:Operator] number.,Recharge
+{10} no_intent,Recharge this [RechargeType:RechargeType] [Operator:Operator] number.,Recharge
+{10} no_intent,Can you recharge my [Operator:Operator] [RechargeType:RechargeType] number?,Recharge
+{10} no_intent,I want to recharge my [Operator:Operator] [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,I would like to recharge my [Operator:Operator] [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Recharge [Operator:Operator] [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Recharge this [Operator:Operator] [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Recharge [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,Recharge this [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,I want to recharge my [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,I want to recharge my [PhoneNumber:PhoneNumber] [Operator:Operator] number,Recharge
+{10} no_intent,I woud like to recharge my [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,I woud like to recharge my [PhoneNumber:PhoneNumber] [Operator:Operator] number.,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] is the [Operator:Operator] number I would like to recharge right now.,Recharge
+{10} no_intent,Urgently recharge [PhoneNumber:PhoneNumber] [Operator:Operator] number,Recharge
+{10} no_intent,Recharge my [Operator:Operator] by [amount:amount] ,Recharge
+{10} no_intent,Show me my [PolicyNumber:PolicyNumber] ,InsurancePremium
+{10} no_intent,Update me my [PolicyNumber:PolicyNumber] ,InsurancePremium
+{10} no_intent,Confirm me my last [PolicyNumber:PolicyNumber] ,InsurancePremium
+{10} no_intent,I want to recharge my [Operator:Operator] number with [amount:amount] ,Recharge
+{10} no_intent,I woud like to recharge my [Operator:Operator] number by [amount:amount] ,Recharge
+{10} no_intent,with [amount:amount] recharge my [Operator:Operator] number,Recharge
+{10} no_intent,Can you recharge my [Operator:Operator] number with [amount:amount]?,Recharge
+{10} no_intent,with [amount:amount] can you recharge my [Operator:Operator] number?,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber]?,Recharge
+{10} no_intent,I want to recharge [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,Recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] Recharge this [RechargeType:RechargeType] number.,Recharge
+{10} no_intent,Urgently recharge [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] number by [amount:amount]?,Recharge
+{10} no_intent,I want to recharge [RechargeType:RechargeType] number with [amount:amount] ,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] number by [amount:amount] ,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] number with [amount:amount] ,Recharge
+{10} no_intent,Recharge my [RechargeType:RechargeType] number by [amount:amount] ,Recharge
+{10} no_intent,Recharge [PhoneNumber:PhoneNumber] by [amount:amount] ,Recharge
+{10} no_intent,I want to recharge my number [PhoneNumber:PhoneNumber] with [amount:amount] ,Recharge
+{10} no_intent,I woud like to recharge my number [PhoneNumber:PhoneNumber] by [amount:amount] ,Recharge
+{10} no_intent,with [amount:amount] recharge my number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] Recharge this number by [amount:amount] .,Recharge
+{10} no_intent,Urgently recharge [PhoneNumber:PhoneNumber] with [amount:amount] .,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber]?,Recharge
+{10} no_intent,I want to recharge [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,Recharge this [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,Urgently recharge my [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] is the [RechargeType:RechargeType] [Operator:Operator] number I would like to recharge right now.,Recharge
+{10} no_intent,Can you recharge my [Operator:Operator] [RechargeType:RechargeType] number[PhoneNumber:PhoneNumber]?,Recharge
+{10} no_intent,I want to recharge [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,I would like to recharge my [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,Recharge [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,Urgently recharge my [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] .,Recharge
+{10} no_intent,Recharge this [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] is the [Operator:Operator] [RechargeType:RechargeType] number I would like to recharge right now.,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] by [amount:amount]?,Recharge
+{10} no_intent,I want to recharge [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] ,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] by [amount:amount] ,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] ,Recharge
+{10} no_intent,Recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] by [amount:amount] ,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] Recharge this [RechargeType:RechargeType] number with [amount:amount] ,Recharge
+{10} no_intent,Urgently recharge [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] by [amount:amount] ,Recharge
+{10} no_intent,with [amount:amount] recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,By [amount:amount] recharge my [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] immediiately,Recharge
+{10} no_intent,Can you recharge my [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] by [amount:amount]?,Recharge
+{10} no_intent,I want to recharge [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] by [amount:amount] .,Recharge
+{10} no_intent,I would like to recharge my [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] by [amount:amount] .,Recharge
+{10} no_intent,Recharge [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] by [amount:amount] .,Recharge
+{10} no_intent,Recharge this [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] by [amount:amount] ,Recharge
+{10} no_intent,Urgently recharge my [RechargeType:RechargeType] [Operator:Operator] number [PhoneNumber:PhoneNumber] by [amount:amount] .,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] is the [RechargeType:RechargeType] [Operator:Operator] number I would like to recharge right now by [amount:amount] .,Recharge
+{10} no_intent,Can you recharge my [Operator:Operator] [RechargeType:RechargeType] number[PhoneNumber:PhoneNumber] with [amount:amount]?,Recharge
+{10} no_intent,I want to recharge [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] .,Recharge
+{10} no_intent,I would like to recharge my [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] .,Recharge
+{10} no_intent,Recharge [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] .,Recharge
+{10} no_intent,Urgently recharge my [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] .,Recharge
+{10} no_intent,Recharge this [Operator:Operator] [RechargeType:RechargeType] number [PhoneNumber:PhoneNumber] with [amount:amount] ,Recharge
+{10} no_intent, [PhoneNumber:PhoneNumber] is the [Operator:Operator] [RechargeType:RechargeType] number I would like to recharge right now with [amount:amount] .,Recharge
+{10} no_intent,Recharge this [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,With [amount:amount] recharge my [Operator:Operator] sim.,Recharge
+{10} no_intent,My [Operator:Operator] number [PhoneNumber:PhoneNumber] needs to be recharged. ,Recharge
+{10} no_intent,Popular plan for my [Operator:Operator] number.,Recharge
+{10} no_intent,I would like to recharge my number [PhoneNumber:PhoneNumber] by [amount:amount] .,Recharge
+{10} no_intent,I would like to recharge my [Operator:Operator] number [PhoneNumber:PhoneNumber] with [amount:amount] .,Recharge
+{10} no_intent,With [amount:amount] I would like to recharge my [Operator:Operator] sim.,Recharge
+{10} no_intent,I wish to recharge [PhoneNumber:PhoneNumber] by [amount:amount] .,Recharge
+{10} no_intent,Recharge this postpaid [Operator:Operator] number [PhoneNumber:PhoneNumber] ,Recharge
+{10} no_intent,Recharge this postpaid number [PhoneNumber:PhoneNumber] with [amount:amount] ,Recharge
+{10} Recharge,Yeah I want to recharge this number,affirmation
+{10} Recharge,yes I would like to continue with the recharge,affirmation
+{10} Recharge,Go ahead for this top-up,affirmation
+{10} Recharge,Sure continue with this.,affirmation
+{10} Recharge,okay let's do this,affirmation
+{10} Recharge,yes continue with the process,affirmation
+{10} Recharge,yeah I would like to proceed with the top-up,affirmation
+{10} Recharge,sure go ahead,affirmation
+{10} Recharge,yes i am sure,affirmation
+{10} Recharge,do continue please,affirmation
+{10} Recharge,yes,affirmation
+{10} Recharge,yeah,affirmation
+{10} Recharge,sure,affirmation
+{10} Recharge,continue,affirmation
+{10} InsurancePremium,Yeah I want to take this insurance,affirmation
+{10} InsurancePremium,yes I would like to continue with this insurance,affirmation
+{10} InsurancePremium,Go ahead for this insurance,affirmation
+{10} InsurancePremium,Sure continue with this.,affirmation
+{10} InsurancePremium,okay let's do this,affirmation
+{10} InsurancePremium,yes continue with the process,affirmation
+{10} InsurancePremium,yeah I would like to proceed with the process,affirmation
+{10} InsurancePremium,sure go ahead,affirmation
+{10} InsurancePremium,yes i am sure,affirmation
+{10} InsurancePremium,do continue please,affirmation
+{10} InsurancePremium,yes,affirmation
+{10} InsurancePremium,yeah,affirmation
+{10} InsurancePremium,sure,affirmation
+{10} InsurancePremium,continue,affirmation
+{10} InsurancePremium,Yes please,affirmation
+{10} InsurancePremium,Yes select that,affirmation
+{10} InsurancePremium,Yes my [StatusOfInsurance:StatusOfInsurance] ,affirmation
+{10} InsurancePremium,Yes [StatusOfInsurance:StatusOfInsurance] ,affirmation
+{10} InsurancePremium,No my [StatusOfInsurance:StatusOfInsurance] ,negation
+{10} InsurancePremium,No [StatusOfInsurance:StatusOfInsurance] ,negation
+{10} InsurancePremium,No,negation
+{10} InsurancePremium,I dont,negation
+{10} InsurancePremium,I dont want to,negation
+{10} InsurancePremium,I dont want to proceed,negation
+{10} InsurancePremium,No I dont want that,negation
+{10} InsurancePremium,no I dont want to recharge,negation
+{10} InsurancePremium,no I dont want,negation
+{10} InsurancePremium,no I dont want to continue,negation
+{10} InsurancePremium,no show me something else,negation
+{10} InsurancePremium,I dont want to continue,negation
+{10} Recharge,No,negation
+{10} Recharge,I dont,negation
+{10} Recharge,I dont want to,negation
+{10} Recharge,I dont want to proceed,negation
+{10} Recharge,No I dont want that,negation
+{10} Recharge,no I dont want to recharge,negation
+{10} Recharge,no I dont want,negation
+{10} Recharge,no I dont want to continue,negation
+{10} Recharge,no show me something else,negation
+{10} Recharge,I dont want to continue,negation
+{10} no_intent,Why the recharge is not complete,RechargeStatus
+{10} no_intent,My recharge status is pending,RechargeStatus
+{10} no_intent,I did not receive balance after recharge,RechargeStatus
+{10} no_intent,Recharge is failed,RechargeStatus
+{10} no_intent,Why recharge status shows waiting for Operator,RechargeStatus
+{10} no_intent,"Money dedcuted, recharge is pending",RechargeStatus
+{10} no_intent,My recharge is taking longer than expected ,RechargeStatus
+{10} no_intent,Show me the transaction of my latest recharge,RechargeStatus
+{10} no_intent,show the status of my last recharge,RechargeStatus
+{10} no_intent,Details about my recharge,RechargeStatus
+{10} InsurancePremium, [PolicyNumber:PolicyNumber] ,InsurancePremium
+{10} Recharge, [PhoneNumber:PhoneNumber] ,Recharge
+{10} InsurancePremium, [Gender:Gender] ,InsurancePremium
+{10} Recharge, [amount:amount] ,Recharge
+{10} InsurancePremium, [amount:amount] ,InsurancePremium
+{10} InsurancePremium, [Country:Country] ,InsurancePremium
+{10} InsurancePremium, [Date:Date] ,InsurancePremium
+{10} Recharge, [Date:Date] ,Recharge
+{10} InsurancePremium, [InsuranceBrand:InsuranceBrand] ,InsurancePremium
+{10} InsurancePremium, [NoOfPax:NoOfPax] ,InsurancePremium
+{10} Recharge, [Operator:Operator] ,Recharge
+{10} Recharge, [RechargeType:RechargeType] ,Recharge
+{10} InsurancePremium, [Relationship:Relationship] ,InsurancePremium
+{10} InsurancePremium, [StatusOfInsurance:StatusOfInsurance] ,InsurancePremium
+{10} InsurancePremium, [TypeOfInsurance:TypeOfInsurance] ,InsurancePremium
