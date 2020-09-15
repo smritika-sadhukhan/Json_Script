@@ -1,0 +1,1100 @@
+## intent:HotelSearch+Filter
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [कोलकात](Location)(others) में [रु। १०००](Amount)(number) के किराए के तहत सर्वश्रेष्ठ होटल दिखाएं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  [अविवाहित](CustomerType)(others) जोड़े के लिए मुझे [५_स्टार](Star_Rate)(number) में एक कमरा बुक करें
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं 2 रूम बुक करना चाहता हूं जिसमें [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  यह क्रिसमस मैं [2_रूम](NoOfRooms)(number) बुक करेगा, जिसमें [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे सबसे अच्छा दिखाएं [2_रूम](NoOfRooms)(number) जिसमें [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मैं [रु। १०००](Amount)(number) के अंतर्गत ६ लोगों के लिए [२_रूम](NoOfRooms)(number) चाहता हूं, जिनके पास [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे होटल दिखाएं [रु। १०००](Amount)(number) जिसके पास [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  मैं इस होटल को 2 दिसंबर के लिए बुक करना चाहता हूं जिसमें [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  मैं 2 दिसंबर के लिए होटल में रहना चाहता हूं, जिसमें [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  क्या मैं 2 दिसंबर दिनों के लिए होटल बुक कर सकता हूं जिसमें [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मैं [2_रूम](NoOfRooms)(number) कमरे [वाईफाई](Amenities)(others) के साथ बुक करना चाहता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  क्रिसमस मैं [2_रूम](NoOfRooms)(number) को [वाईफाई](Amenities)(others) के साथ बुक करूँगा
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे सबसे अच्छा दिखाओ [2_रूम](NoOfRooms)(number) [वाईफाई](Amenities)(others) के साथ
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मैं [रु। १०००](Amount)(number) के तहत ६ लोगों के लिए २ कमरे चाहता हूँ [वाईफाई](Amenities)(others)
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [वाईफाई](Amenities)(others) के साथ [रु। १०००](Amount)(number) के तहत होटल दिखाएं
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  मैं इस होटल को 2 दिसंबर के लिए [वाईफाई](Amenities)(others) के साथ बुक करना चाहता हूं
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  मैं होटल में रहना चाहता हूं 2 दिसंबर [वाईफाई](Amenities)(others) के साथ
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  क्या मैं 2 दिसंबर दिनों के लिए [वाईफाई](Amenities)(others) के साथ होटल बुक कर सकता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं इस महीने में [2_रूम](NoOfRooms)(number) बुक करना चाहता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं आगामी सप्ताह में [2_रूम](NoOfRooms)(number) बुक करना चाहता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं आने वाले सोमवार में [2_रूम](NoOfRooms)(number) कमरा बुक करना चाहता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं इस महीने में [2_रूम](NoOfRooms)(number) बुक करना चाहता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं आने वाले सप्ताह में [रु। १०००](Amount)(number) के तहत [२_रूम](NoOfRooms)(number) बुक करना चाहता हूं।
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं आने वाले सोमवार को [रु। १०००](Amount)(number) के तहत [२_रूम](NoOfRooms)(number) बुक करना चाहता हूं।
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं कॉमनिंग सोमवार में [2_रूम](NoOfRooms)(number) बुक करना चाहूंगा [Rs_1000](Amount)(number)
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं किताब चाहते हैं [2_रूम](NoOfRooms)(number) इस महीने में [Rs_1000](Amount)(number) के तहत
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं आने वाले सप्ताह में [रु। १०००](Amount)(number) के तहत [२_रूम](NoOfRooms)(number) बुक करना चाहूंगा।
+* Hotel_Search, ask_checkout, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [19_जन](checkin)(Date) पर [५_स्टार](Star_Rate)(number) बुक करें [कोलकात](Location)(others)
+* Hotel_Search, ask_filter, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे एक होटल [आज](checkinDay)(Day) में [कोलकाता](Location)(others) बुक करें
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  एक होटल बुक करना पसंद करते हैं, जिसमें [५_स्टार](Star_Rate)(number) रेटिंग हो
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं एक होटल बुक करना चाहता हूं जिसमें [५_स्टार](Star_Rate)(number) रेटिंग हो
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं एक होटल बुक करना चाहता हूं, जिसमें [५_स्टार](Star_Rate)(number) रेटिंग हो
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  [वाईफाई](Amenities)(others) के साथ होटल
+* Hotel_Search, ask_filter, आप कहाँ होटल बुक करना चाहते हैं ?  [कोलकाता](Location)(others) में होटल
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [कोलकात](Location)(others) में [५_स्टार](Star_Rate)(number) की सूची
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  [डिलक्स](RoomType)(others) कमरे के साथ होटल
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  होटल में [वाईफाई](Amenities)(others) होनी चाहिए
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  सर्वश्रेष्ठ [वाईफाई](Amenities)(others) के साथ होटल
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  के सर्वश्रेष्ठ होटलों [कोलकाता](Location)(others)
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मैं केवल [वाईफ़ाई](Amenities)(others) के साथ एक होटल के कमरे की जरूरत है
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [कोलकाता](Location)(others) के पास एक होटल चाहते हैं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे प्रति कमरा [रु। १०००](Amount)(number) से कम वाले होटल खोजें
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे वे होटल दिखाएं जिनमें केवल [वाईफाई](Amenities)(others) हैं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [वाईफाई](Amenities)(others) के साथ एक होटल चाहिए
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [वाईफाई](Amenities)(others) के साथ एक होटल चाहिए
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे केवल [५_स्टार](Star_Rate)(number) होटल दिखाएं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [कोलकाता](Location)(others) के पास होटल दिखाएं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं [2](NoOfTravellers)(number) के लिए एक बजट होटल का कमरा चाहता हूँ
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं एक होटल चाहता हूं जो [वाईफाई](Amenities)(others) प्रदान करता है
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मैं एक [५_स्टार](Star_Rate)(number) होटल [वाईफाई](Amenities)(others) उपलब्ध चाहता हूं
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे कमरे में [वाईफाई](Amenities)(others) सेवा के साथ एक होटल चाहिए
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [वाईफाई](Amenities)(others) सेवाओं के साथ एक होटल चाहिए
+* Hotel_Search, ask_filter, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [कोलकाता](Location)(others) दृश्य के साथ एक होटल का कमरा चाहिए
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  कितनी दूर [हाईट](HotelName)(others) से [कोलकात](Location)(others)
+* Hotel_Search, ask_payment, आप कहाँ होटल बुक करना चाहते हैं ?  ट्विन बेड के साथ 1 कमरा [डीलक्स](RoomType)(others) बिस्तर और दूसरा [डिलक्स](RoomType)(others)
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  होटल जहां [वाईफाई](Amenities)(others) की अनुमति है
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे बच्चों के लिए [वाईफाई](Amenities)(others) के साथ एक होटल बुक करें
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [वाईफाई](Amenities)(others) के साथ एक होटल बुक करें
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  [५_स्टार](Star_Rate)(number) के साथ होटल
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  सर्वश्रेष्ठ [वाईफाई](Amenities)(others) के साथ होटल
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  महान [वाईफाई](Amenities)(others) के साथ होटल
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  अच्छी [वाईफाई](Amenities)(others) गुणवत्ता वाला होटल
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  होटल [वाईफाई](Amenities)(others) के साथ
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  बड़े डांस फ्लोर के साथ वाला होटल [कोलकाता](Location)(others) में
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  होटल में [वाईफाई](Amenities)(others) होनी चाहिए
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [वाईफाई](Amenities)(others) कमरे होटल में रहते हैं [कोलकात](Location)(others) रेंज के तहत [Rs_1000](Amount)(number) के लिए [2](NoOfTravellers)(number) प्रवास
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [वाईफाई](Amenities)(others) कमरे होटल [कोलकाता](Location)(others)
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  होटल [वाईफाई](Amenities)(others)
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  होटल [वाईफाई](Amenities)(others) और पास [कोलकाता](Location)(others)
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे भारत में [वाईफाई](Amenities)(others) के साथ एक होटल बुक करें
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [अविवाहित](CustomerType)(others) के लिए [कोलकाता](Location)(others) के पास एक होटल बुक करें
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [अविवाहित](CustomerType)(others) के लिए मुझे होटल और रेस्तरां दिखाएं
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [अविवाहित](CustomerType)(others) के लिए [कोलकाता](Location)(others) के पास एक होटल बुक करें
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [अविवाहित](CustomerType)(others) के लिए [कोलकाता](Location)(others) के पास के होटलों की सूची
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मेरे [अविवाहित](CustomerType)(others) के लिए मुझे [५_स्टार](Star_Rate)(number) में एक कमरा बुक करें
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे एक हॉल बुक करें [५_स्टार](Star_Rate)(number) [कोलकात](Location)(others) में
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  मेरे [अविवाहित](CustomerType)(others) के लिए [कोलकाता](Location)(others) के लिए एक होटल बुक करें 2 दिसंबर खर्च करने के लिए
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [2](NoOfTravellers)(number) के लिए मुझे [कोलकाता](Location)(others) में बुक करें
+* Hotel_Search, ask_location, आप कहाँ होटल बुक करना चाहते हैं ?  मुझे [19_जान](checkin)(Date) के लिए एक होटल बुक करें
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [कोलकाता](Location)(others) [वाईफाई](Amenities)(others) के साथ होटलों की सूची
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [कोलकाता](Location)(others) [वाईफाई](Amenities)(others) के साथ होटलों की सूची
+* Hotel_Search, ask_checkin, आप कहाँ होटल बुक करना चाहते हैं ?  [कोलकाता](Location)(others) [वाईफाई](Amenities)(others) के साथ होटलों की सूची
+## intent:Negation
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी बुकिंग से [2](NoOfTravellers)(number) रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैंने एक [५_स्टार](Star_Rate)(number) बुक किया है, कृपया इसे रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं केवल [2](NoOfTravellers)(number) के लिए अपनी बुकिंग रद्द करना चाहूंगा
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैंने बुक किया [हाईट](HotelName)(others) अब रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी [हयात](HotelName)(others) बुकिंग रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी [हयात](HotelName)(others) बुकिंग से [2](NoOfTravellers)(number) रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  रद्द करें [५_स्टार](Star_Rate)(number) बुकिंग
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी होटल बुकिंग रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  अंतिम क्षणों में बदलाव, रद्द करने की आवश्यकता है [कोलकाता](Location)(others) बुकिंग
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी [कोलकाता](Location)(others) होटल बुकिंग रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी [५_स्टार](Star_Rate)(number) होटल बुकिंग [कोलकाता](Location)(others) को रद्द करने की आवश्यकता
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  कोई [वाईफाई](Amenities)(others) सेवाएँ नहीं हैं, इसलिए मेरी होटल बुकिंग रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैंने [2](NoOfTravellers)(number) के लिए [हयात](HotelName)(others) बुक किया, कृपया इसे रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  [कोलकाता](Location)(others) में खराब मौसम के कारण, कृपया मेरी [हयात](HotelName)(others) बुकिंग रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं इसके साथ आगे बढ़ना नहीं चाहता
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  प्रक्रिया को निरस्त करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  बिलकुल नहीं
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  किसी भी तरह से नहीं
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  रद्द करना
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  इसे रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  निश्चित रूप से नहीं
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  बंद करो
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  इसे बाद में करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  आगे न बढ़ें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  भगवान नहीं
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) [डिलक्स](RoomType)(others) कमरा रद्द करना चाहूंगा
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं रद्द करना चाहता हूं [2](NoOfRooms)(number) [डिलक्स](RoomType)(others) कमरा
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं रद्द करना चाहूंगा [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरा
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं रद्द करना चाहता हूँ [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरा
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरे [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरे को रद्द करें
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) कमरा रद्द करना चाहता हूं
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) कमरा रद्द करना चाहूंगा
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) कमरा रद्द करना चाहता हूं
+* affirmation, ask_hotelname,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरे [2](NoOfRooms)(number) कमरे को रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरा 2 दिसंबर के लिए [हाईट](HotelName)(others) [कोलकात](Location)(others) में रद्द करना चाहती हूँ
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरा 2 दिसंबर के लिए [हाईट](HotelName)(others) [कोलकात](Location)(others) को रद्द करना चाहता हूं।
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरा 2 दिसंबर के लिए [हाईट](HotelName)(others) को [कोलकात](Location)(others) में रद्द करना चाहूँगा
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [2](NoOfRooms)(number) [डीलक्स](RoomType)(others) कमरा 2 दिसंबर के लिए [हाईट](HotelName)(others) [कोलकात](Location)(others) को रद्द करना चाहता हूं।
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [डिलक्स](RoomType)(others) [५_स्टार](Star_Rate)(number) होटल 2 दिसंबर के लिए [हाईट](HotelName)(others) को [कोलकाता](Location)(others) पर रद्द करना चाहूँगा
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं एक होटल रद्द करना चाहता हूं
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं एक होटल रद्द करना चाहूंगा
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे एक होटल रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं अपनी बुकिंग रद्द करना चाहता हूं
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी बुकिंग रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी बुकिंग रद्द करें
+* affirmation, no_action,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मेरी बुकिंग रद्द करें
+## intent:HotelSearch
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkin)(Date) पर [5_स्टार_होटल](Star_Rate)(Number) पर मुझे बुक करें [कलकत्ता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे होटल में बुक करें [कोलकाता](Location)(other)
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [आज](checkinDay)(Day) पर [कोलकाता](Location)(other) में एक होटल बुक करें
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे चेकइन समय के साथ एक होटल बुक करें [19_जन](checkin)(Date) और [19_जन](checkout)(Date) में चेकआउट [कोलकटा](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे लिए एक होटल बुक करें [दो व्यक्ति](NoOfTravellers)(Number) [कोलकटा](Location)(other) के ल
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) के लिए मुझे एक होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक हॉल बुक करें [5_star_hotel](Star_Rate)(Number) [कोलकटा](Location)(other) में
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे [अविवाहित](CustomerType)(other) के लिए [कोलकटा](Location)(other) में एक होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे लिए एक होटल बुक करें [कोलकाता](Location)(other) ।
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [दो व्यक्ति](NoOfTravellers)(Number) के लिए एक कमरा बुक करें।
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [अविवाहित](CustomerType)(other) के लिए मुझे होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [दो व्यक्ति](NoOfTravellers)(Number) के समूह के लिए एक होटल का कमरा बुक करें।
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे लिए एक होटल बुक करें [कोलकाता](Location)(other) ।
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) के लिए [कोलकाता](Location)(other) के पास एक होटल का कमरा बुक करें
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [दो व्यक्ति](NoOfTravellers)(Number) वाले परिवार के लिए होटल का कमरा बुक करें
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे लिए एक होटल बुक करें [कोलकाता](Location)(other) ।
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [दो व्यक्ति](NoOfTravellers)(Number) के लिए एक कमरा बुक करें।
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक [अविवाहित](CustomerType)(other) के लिए [कोलकटा](Location)(other) में होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [दो व्यक्ति](NoOfTravellers)(Number) के समूह के लिए एक होटल का कमरा बुक करें।
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे लिए एक होटल बुक करें [कोलकाता](Location)(other) ।
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) के लिए [कोलकाता](Location)(other) के पास एक होटल का कमरा बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [दो व्यक्ति](NoOfTravellers)(Number) वाले परिवार के लिए होटल का कमरा बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) के लिए [कोलकटा](Location)(other) में होटल बुक करें
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkin)(Date) पर होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) के लिए मुझे [कोलकाता](Location)(other) में बुक करें
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [19_जान](checkin)(Date) के लिए एक होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे होटल में एक कमरा बुक करें [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे होटल में एक कमरा बुक करें [कोलकाता](Location)(other) शहर
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे दो घंटे के लिए होटल में बुक करें [कोलकाता](Location)(other)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे क्रेडिट और डेबिट कार्ड के सभी रूपों के साथ एक होटल बुक करें
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे पास एक होटल बुक करें [कोलकाता](Location)(other)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे होटल और रेस्तरां दिखाएं
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [कोलकाता](Location) के पास एक होटल बुक करें
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [आज](checkinDay)(Day) बुकिंग के साथ एक होटल उपलब्ध कराएँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [आज](checkin)(Day) बुकिंग के साथ एक होटल बुक करें
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  होटल में एक बेड के साथ होटल
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  कम से कम समय में सर्वश्रेष्ठ प्रबंधन वाला होटल
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे  [कोकलाटा](Location)(other) में [19_जान](checkin)(Date) के लिए मुम [5_star_hotel](Star_Rate)(Number) पर एक कमरा बुक करें।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक कमरा [5_star_hotel](Star_Rate)(Number)  [आज](checkinDay)(Day) सुबह 6:00 बजे से 10:00 बजे तक [19_जन](checkin)(Date) में [कोलकटा](Location)(other) बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [कोलकटा](Location)(other) में एक होटल बुक करें जो कि दो दिन के लिए [Rs_1000](Amount)(Number) से लेकर [Rs_1000](Amount)(Number) तक हो। [दो व्यक्ति](NoOfTravellers)(Number)
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे लिए एक होटल बुक करें [आज](checkinDay)(Day) शाम मेरे [कोलकाता](Location)(other) के लिए
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे पास के निकटतम होटलों की सूची
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे आसपास सबसे सुंदर होटल की सूची
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकाता](Location)(other) होटल जो कि अम्बानी के स्वामित्व में है
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  अधिकतम निराई के साथ होटल
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  होटल [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  होटलों का सर्वश्रेष्ठ लाभ उठाएं
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मेरे पास सबसे सस्ता होटल
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  होटल की कीमत सीमा [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  Oyo होटल की सूची [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकाता](Location)(other) के पास के होटलों की सूची
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  होटल [कोलकाता](Location)(other) के पास
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  होटल [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  होटल का कमरा [कोलकाता](Location)(other)
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   चेकइन पर [19_जनवरी](checkin)(Date)
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   क्या मैं [आज](checkinDay)(Day) चेकइन कर सकता हूं
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं होटल को [19_जन](checkin)(Date) पर बुक करना चाहूंगा
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं होटल को [19_जन](checkin)(Date) पर बुक करना चाहता हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं [19_जनवरी](checkin)(Date) पर होटल बुक करने को तैयार हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं [आज](checkinDay)(Day) पर होटल बुक करना चाहता हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   होटल को [19_जनवरी](checkin)(Date) पर बुक करें
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   क्या मैं [आज](checkinDay)(Day) पर बुकिंग कर सकता हूं
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं [19_जन](checkin)(Date) पर होटल बुक कर रहा हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं होटल [19_जन](checkin)(Date) पर बुक करने जा रहा हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं [19_जनवरी](checkin)(Date) पर होटल बुक करने को तैयार हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मैं [आज](checkinDay)(Day) पर होटल बुक करना चाहता हूँ
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मेरी बुकिंग [आज](checkinDay)(Day) से शुरू होनी चाहिए
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   मेरी बुकिंग की पहली तारीख [आज](checkinDay)(Day) है
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkin)(Day) चेकइन करना चाहूंगा
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkinDay)(Day) चेकइन करना चाहता हूं
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkinDay)(Day) चेकइन के लिए तैयार हूं
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkinDay)(Day) पर मैं चेकइन करना चाहता हूं
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkinDay)(Day) चेकिन करना है
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkinDay)(Day) पर मेरी बुकिंग शुरू होती है
+* negation, ask_checkout, आप कब  होटल बुक करना चाहते हैं ?   [आज](checkinDay)(Day) पर मेरी बुकिंग की पहली तारीख है
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकाटा](Location)(Location)(other) [स्थानीय](Nationality)(other) के लिए [आज](checkoutDay)(Day) पर एक होटल का कमरा बुक करना चाहूंगा।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) पर [कोलकटा](Location)(other) के लिए [स्थानीय लोगों](Nationality)(other) पर एक होटल का कमरा बुक करने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक होटल [19_जन](checkin)(Date) [कोकलता](Location)(other) के लिए [स्थानीय](Nationality)(other) बुक करें
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकाटा](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर होटल के कमरे की जाँच करना चाहूंगा।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर होटल के कमरे की जांच करना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल के कमरे की जांच करने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल के कमरे की जांच करना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) पर होटल का कमरा [कोलकाता](Location)(other) [स्थानीय लोगों के लिए](Nationality)(other) देखना चाहूंगा
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर होटल का कमरा देखना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल का कमरा देखने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल का कमरा देखना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) [स्थानीय](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल के कमरों की जाँच करना चाहूंगा।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल के कमरे की जांच करना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) [कोकलता](Location)(other) के लिए [स्थानीय लोगों](Nationality)(other) पर कुछ होटल के कमरे की जांच करने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल के कमरे की जाँच करना चाहता हूँ।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर होटल के कुछ कमरे देखना चाहूंगा
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल के कमरे देखने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) के पास [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहूंगा।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) के पास [स्थानीय लोगों](Nationality)(other) [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) के पास [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) के पास [स्थानीय लोगों](Nationality)(other) [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर होटल के कुछ कमरे देखना चाहूंगा
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल के कमरे देखने को तैयार हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूं।
+* negation, ask_roomtype, हम आपकी कैसे सहायता कर सकते हैं ?  [कोकलता](Location)(Location)(other) [स्थानीय लोगों](Nationality)(other) के लिए [19_जन](checkin)(Date) पर कुछ होटल का कमरा दिखाएँ
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करें, जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करना पसंद करते हैं, जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहता हूं, जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहूंगा, जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहता हूं जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करें, जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करें जो [5_star_hotel](Star_Rate)(Number) रेटिंग [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करना पसंद करते हैं जिसमें [5_star_hotel](Star_Rate)(Number) रेटिंग [दो व्यक्ति](NoOfTravellers)(Number) लोग हों
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए बुक करना चाहता हूँ
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  होटल बुक करना पसंद है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहूंगा
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक होटल बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोकट्टा](Location)(Location)(other) में [हयात](HotelName)(other) में एक कमरा बुक करना पसंद करते हैं
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकट्टा](Location)(other) में [हयात](HotelName)(other) में एक कमरा बुक करना चाहता हूं
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल में [हाईट](HotelName)(other) [कोलकटा](Location)(other) में कमरा लेना चाहूंगा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकाता](HotelName)(other) में एक कमरा बुक करना चाहता हूं [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकटा](Location)(other) में [5_star_hotel](Star_Rate)(होटल) होटल में एक कमरा बुक करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोकट्टा](Location)(Location)(other) में [हयात](HotelName)(other) में एक कमरा बुक करना पसंद करते हैं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करें जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करना पसंद करते हैं, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार रेट है [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक [डिलक्स](RoomType)(other) बुक करना चाहता हूं, जिसमें [5_स्टार_होटल](Star_Rate)(Number) स्टार रेट [२_परसन](NoOfTravellers)(Number) लोग हों
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहूंगा जिसमें [5_star_hotel](Star_Rate)(Number) स्टार रेट [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल बुक करना चाहता हूं जिसमें [5_star_hotel](Star_Rate)(Number) स्टार रेट [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल बुक करें जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए एक होटल बुक करें, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए एक होटल बुक करना पसंद करते हैं, जिनके पास [5_star_hotel](Star_Rate)(Number) स्टार दर है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए एक होटल बुक करना चाहता हूं, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए एक होटल बुक करना चाहूंगा, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए एक होटल बुक करना चाहता हूं, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  होटल दिखाएं जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर है
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल को देखना पसंद करते हैं, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल की जाँच करना चाहता हूँ जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल की जाँच करना चाहता हूँ, जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल की जांच करना चाहता हूं जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर हो
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  एक होटल की जाँच करें जिसमें [5_star_hotel](Star_Rate)(Number) स्टार दर है
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहूंगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करने को तैयार हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक होटल [19_जन](checkin)(Date) को [कोलकाता](Location)(other) बुक करें
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर होटल के कमरे की जाँच करना चाहूँगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) पर होटल का कमरा [कोलकाता](Location)(other) देखना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल के कमरे की जाँच करने को तैयार हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल के कमरे की जाँच करना चाहता हूँ।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) पर होटल का कमरा [कोलकाता](Location)(other) देखना चाहूंगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) पर होटल का कमरा [कोलकाता](Location)(other) देखना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [19_जन](checkin)(Date) पर एक होटल का कमरा [कोलकाता](Location)(other) देखने को तैयार हूं
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलोकाटा](Location)(other) पर [19_जनवरी](checkin)(Date) पर एक होटल का कमरा देखना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल के कमरों की जाँच करना चाहूँगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलोकाटा](Location)(other) पर [19_जनवरी](checkin)(Date) पर कुछ होटल के कमरे की जाँच करना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल के कमरे की जाँच करने को तैयार हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलोकाटा](Location)(other) पर [19_जनवरी](checkin)(Date) पर कुछ होटल के कमरे की जाँच करना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर होटल के कुछ कमरे देखना चाहूंगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखने को तैयार हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूँ
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं 12 वीं कक्षा में एक कमरा बुक करना चाहता हूं [कोलकाता](Location)(other)
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [हाईट](HotelName)(other) में [कोलकटा](Location)(other) आरक्षित करना चाहता हूँ
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) को [हाईट](HotelName)(other) [कोलकटा](Location)(other) में आरक्षित करना चाहूंगा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [हाईट](HotelName)(other) में [कोलकटा](Location)(other) आरक्षित करना चाहता हूं
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  एक [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [हाईट](HotelName)(other) में [कोलकटा](Location)(other) आरक्षित करें
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [हाईट](HotelName)(other) में [कोलकटा](Location)(other) आरक्षित करना पसंद करते हैं
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  रिजर्व [2_रूम](NoOfRooms)(Number) कमरे [डिलक्स](RoomType)(other) कमरा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  आरक्षित करना पसंद है [2_rooms](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं आरक्षित करना चाहता हूं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा आरक्षित करना चाहूंगा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा आरक्षित करना चाहता हूं
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  रिजर्व [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) के लिए [दो व्यक्ति](NoOfTravellers)(Number) लोग
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए आरक्षित करना
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए एक [डिलक्स](RoomType)(other) आरक्षित करना चाहता हूं लोग
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए आरक्षित करना चाहूंगा
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) [डिलक्स](RoomType)(other) कमरा [दो व्यक्ति](NoOfTravellers)(Number) लोगों के लिए आरक्षित करना चाहता हूँ
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे होटल चाहिए [रु। १०००](Amount)(Number)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [रु। १०००](Amount)(Number) के तहत २ कमरे चाहिए
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  दो दिन के लिए [Rs_1000](Amount)(Number) के तहत होटल चाहते हैं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे दो दिन के लिए [रु। 1000](Amount)(Number) के तहत 2 कमरे चाहिए।
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे कमरे दिखाओ [रु। १०००](Amount)(Number)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं एक होटल आरक्षित करना चाहता हूँ [रु। १०००](Amount)(Number)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे सबसे महंगा होटल दिखाओ
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [2_रूम](NoOfRooms)(Number) कमरे क्रिसमस बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  क्रिसमस मैं बुक करेंगे [2_rooms](NoOfRooms)(Number)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे सबसे अच्छा दिखाएँ [2_rooms](NoOfRooms)(Number)
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [६००० रुपये](Amount)(Number) के तहत ६ लोगों के लिए २ कमरे चाहिए
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [१०००](Amount)(Number) के तहत होटल दिखाएं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं इस होटल को दो दिन के लिए बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं होटल में दो दिन रहना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  क्या मैं दो दिन दिनों के लिए होटल बुक कर सकता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं इस महीने में [2_रूम](NoOfRooms)(Number) बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं आगामी सप्ताह में [2_रूम](NoOfRooms)(Number) बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं आने वाले सोमवार में [2_रूम](NoOfRooms)(Number) कमरा बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं इस महीने में [2_रूम](NoOfRooms)(Number) बुक करना चाहता हूं
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं आने वाले सप्ताह में [रु। १०००](Amount)(Number) के तहत [२_रूम](NoOfRooms)(Number) बुक करना चाहता हूं।
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं आने वाले सोमवार को [रु। १०००](Amount)(Number) के तहत [२_रूम](NoOfRooms)(Number) बुक करना चाहता हूं।
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं कॉम्पीयन सोमवार को [रु। १०००](Amount)(Number) के तहत [२_रूम](NoOfRooms)(Number) बुक करना चाहूंगा
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं इस महीने [रु। १०००](Amount)(Number) के तहत [२_रूम](NoOfRooms)(Number) बुक करना चाहूंगा।
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  मैं आने वाले सप्ताह में [रु। १०००](Amount)(Number) के तहत [२_रूम](NoOfRooms)(Number) बुक करना चाहूंगा।
+* negation, ask_checkin, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकाता](Location)(other) [जिम](Amenities)(other) के साथ होटलों की सूची
+* negation, ask_filter, हम आपकी कैसे सहायता कर सकते हैं ?  [कोलकाता](Location)(other) में होटलों की सूची
+* negation, ask_location, हम आपकी कैसे सहायता कर सकते हैं ?  होटल में कुल कमरे
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे [आज](checkinDay)(Day) पर [कोलकाता](Location)(other) में एक होटल की आवश्यकता है
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे आने वाले [आज](checkinDay)(Day) के लिए [कोलकाता](Location)(other) में एक होटल की आवश्यकता है
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मम आना [आज](checkin)(Day) होटल
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  एक [कोलकाता](Location)(other) आने वाली [आज](checkinDay)(Day) होटल बुकिंग
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) के पास [19_जनवरी](checkin)(Date) पर एक होटल का कमरा बुक करना चाहूंगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) के पास [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) के पास [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करने के लिए तैयार हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोकलता](Location)(other) के पास [19_जन](checkin)(Date) पर एक होटल का कमरा बुक करना चाहता हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर होटल के कुछ कमरे देखना चाहूंगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखने को तैयार हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर कुछ होटल का कमरा देखना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा आरक्षित करना चाहूंगा
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा आरक्षित करना चाहता हूँ
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलकटा](Location)(other) पर [19_जन](checkin)(Date) पर एक होटल का कमरा आरक्षित करने को तैयार हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मैं [कोलोकाटा](Location)(other) पर [19_जनवरी](checkin)(Date) पर एक होटल का कमरा आरक्षित करना चाहता हूं।
+* negation, ask_checkout, हम आपकी कैसे सहायता कर सकते हैं ?  मुझे एक होटल आरक्षित करें [19_january](checkin)(Date) [कोलकटा](Location)(other)
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करना चाहूंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करने को तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [19_जनवरी](checkout)(Date) पर चेकआउट
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं होटल को [19_जन](checkout)(Date) पर छोड़ना चाहूंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) को होटल छोड़ना चाहता हूँ
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर होटल छोड़ने को तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जन](checkout)(Date) को होटल छोड़ना चाहता हूँ
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    होटल को छोड़ कर [19_जनवरी](checkout)(Date)
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं होटल [19_जन](checkout)(Date) पर रवाना होऊंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं होटल छोड़ने जा रहा हूँ [19_जान](checkout)(Date)
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर होटल छोड़ने को तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [आज](checkoutDay)(Day) पर होटल छोड़ना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मेरी बुकिंग [आज](checkoutDay)(Day) पर समाप्त होती है
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मेरी बुकिंग की आखिरी तारीख [आज](checkoutDay)(Day) है
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) पर मैं चेकआउट करना चाहूंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) पर मैं चेकआउट करना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं चेकआउट के लिए तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं चेकआउट करना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    पर [आज](checkoutDay)(Day) चेकआउट
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं होटल छोड़ना चाहूंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) पर मैं होटल छोड़ना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं होटल छोड़ने के लिए तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं होटल छोड़ने की इच्छा रखता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) होटल से बाहर निकलते हुए
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) पर मैं होटल से जा रहा था
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    पर [आज](checkoutDay)(Day) मैं होटल छोड़ने जा रहा हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं होटल छोड़ने के लिए तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [आज](checkoutDay)(Day) मैं होटल छोड़ने की इच्छा रखता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    पर [आज](checkoutDay)(Day) मेरी बुकिंग समाप्त हो जाती है
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    पर [आज](checkoutDay)(Day) मेरी बुकिंग की आखिरी तारीख है
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करना चाहूंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करने को तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर चेकआउट करना चाहता हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    [19_जनवरी](checkout)(Date) पर चेकआउट
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं होटल को [19_जन](checkout)(Date) पर छोड़ना चाहूंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) को होटल छोड़ना चाहता हूँ
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर होटल छोड़ने को तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जन](checkout)(Date) को होटल छोड़ना चाहता हूँ
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    होटल को छोड़ कर [19_जनवरी](checkout)(Date)
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं होटल [19_जन](checkout)(Date) पर रवाना होऊंगा
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं होटल छोड़ने जा रहा हूँ [19_जान](checkout)(Date)
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जनवरी](checkout)(Date) पर होटल छोड़ने को तैयार हूं
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मैं [19_जन](checkout)(Date) को होटल छोड़ना चाहता हूँ
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मेरी बुकिंग [19_जनवरी](checkout)(Date) पर समाप्त होती है
+* negation, ask_hotelname, आपकी चेकआउट डेट कब हैं ?    मेरी बुकिंग की अंतिम तारीख [19_जन](checkout)(Date) है
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जनवरी](checkout)(Date) पर मैं होटल [हाईट](HotelName)(other) से चेकआउट करना चाहूंगा
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जनवरी](checkout)(Date) पर मैं होटल [हाईट](HotelName)(other) से चेकआउट करना चाहता हूं
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मैं होटल [हाईट](HotelName)(other) से चेकआउट के लिए तैयार हूं
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [१ ९_जान](checkout)(Date) मैं होटल [हाईट](HotelName)(other) से चेकआउट करना चाहता हूं
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) होटल से चेकआउट [हयात](HotelName)(other)
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [१ ९_जान](checkout)(Date) मैं होटल से होटल छोड़ना चाहूंगा [हयात](HotelName)(other)
+* negation, ask_payment, हम आपकी कैसे सहायता कर सकते हैं ?  [१ ९_जान](checkout)(Date) मैं होटल से होटल छोड़ना चाहता हूं [हयात](HotelName)(other)
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मैं होटल छोड़ने के लिए तैयार हूं
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मैं होटल छोड़ने की इच्छा रखता हूं
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  होटल छोड़ने के लिए [19_जन](checkout)(Date)
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जान](checkout)(Date) को मैं होटल से बाहर निकलूंगा
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मैं होटल छोड़ने जा रहा हूं
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मैं होटल छोड़ने के लिए तैयार हूं
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मैं होटल छोड़ने की इच्छा रखता हूं
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) पर मेरी बुकिंग समाप्त हो जाती है
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मेरी बुकिंग की आखिरी तारीख है
+* negation, ask_hotelname, हम आपकी कैसे सहायता कर सकते हैं ?  [19_जन](checkout)(Date) मेरी बुकिंग की आखिरी तारीख है
+## intent:Affirmation
+* HotelSearch, ask_payment, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मुझे एक कमरा [हयात](HotelName)(other) में बुक करें
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  आप इसकी पुष्टि कर सकते हैं
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें कि हम इसके साथ आगे बढ़ सकते हैं
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  की पुष्टि!
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ इसके लिए जाओ
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  इसके लिए जाओ
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  महान सौदा, इसके लिए जाओ
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  ज़रूर जाना
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ उस होटल की पुष्टि करें
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मैं इसके साथ आगे बढ़ना चाहूंगा
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ जारी रखें
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  ज़रूर
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हां यकीनन
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  निश्चित रूप से मैं चाहता हूं
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ कृपया
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पूर्ण रूप से
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  कर दो
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ इसे आरक्षित करें
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  किया हुआ
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  आगे बढ़ें
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मैं पिछली बार की तरह ही कमरा बुक करना चाहता हूं
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मेरी पिछली बुकिंग दोहराएं
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  हाँ करो इसे
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  ठीक है हो गया
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  माना
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  थैंक्यू, इसके लिए जाओ
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  महान कार्य किया
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  अच्छा विकल्प
+* HotelSearch, ask_payment, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मेरी बुकिंग [हाईट](HotelName)(other) होटल में पक्की है
+* HotelSearch, ask_payment, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मेरी बुकिंग होटल [हाईट](HotelName)(other) में पक्की है
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  अद्भुत होटल, किया
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  कृपया इसे करें
+* HotelSearch, no_action, क्या आप कंटिन्यू करना चाहतेह हैं  ?  इसके लिए इंतजार नहीं कर सकते, यह करो
+* HotelSearch, ask_checkout, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [19_जन](checkin)(Date) होटल [हाईट](HotelName)(other) में पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [2_रूम](NoOfRooms)(Number) होटल में पुष्टि की जाती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  होटल [हाईट](HotelName)(other) में
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [रु। १०००](Amount)(Number) की पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  दो दिन होटल में पुष्टि की जाती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [डिलक्स](RoomType)(other) कमरे की पुष्टि होटल [हाईट](HotelName)(other) में की जाती है।
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  होटल में [जिम](Amenities)(other) की पुष्टि होती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [अविवाहित](CustomerType)(other) होटल [हाईट](HotelName)(other) में पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  होटल में [कोलकाता](Location)(other) की पुष्टि की जाती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkout, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [19_जन](checkin)(तिथि) की पुष्टि की गई है
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [2_रूम](NoOfRooms)(Number) की पुष्टि की जाती है
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [रु। १०००](Amount)(Number) की पुष्टि की जाती है
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  दो दिन की पुष्टि की जाती है
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [हाईट](HotelName)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [डिलक्स](RoomType)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [वाईफ़ाई](Amenities)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [अविवाहित](CustomerType)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [कोलकाता](Location)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_checkout, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि [19_जन](checkin)(Date)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि [2_रूम](NoOfRooms)(Number)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि [रु। १०००](Amount)(Number)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि करें दो दिन
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि करें [हाईट](HotelName)(other)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि करें [डिलक्स](RoomType)(other)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि करें [वाईफाई](Amenities)(other)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि [अविवाहित](CustomerType)(other)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  पुष्टि [कोलकाता](Location)(other)
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [19_जन](checkin)(Date) के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [2_रूम](NoOfRooms)(Number) के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [रु। १०००](Amount)(Number) के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  दो दिन के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [हाईट](HotelName)(other) के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [डिलक्स](RoomType)(other) के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [वाईफाई](Amenities)(other) के लिए जाएं
+* HotelSearch, ask_location, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [अविवाहित](CustomerType)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [कोलकाता](Location)(other) के लिए जाएं
+* HotelSearch, ask_checkout, क्या आप कंटिन्यू करना चाहतेह हैं  ?  [19_जन](checkin)(Date) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें [2_rooms](NoOfRooms)(Number) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें कि [रु। १०००](Amount)(Number)
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें दो दिन के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें कि [हाईट](HotelName)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें कि [डिलक्स](RoomType)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें कि [जिम](Amenities)(other)
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करें कि [अविवाहित](CustomerType)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  सुनिश्चित करने के लिए जाना [कोलकाता](Location)(other)
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मुझे एक कमरा [हयात](HotelName)(other) में बुक करें
+* HotelSearch, ask_checkin, क्या आप कंटिन्यू करना चाहतेह हैं  ?  मुझे एक कमरा [हयात](HotelName)(other) में बुक करें
+* HotelSearch, ask_checkout, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [19_जन](checkin)(Date) होटल [हाईट](HotelName)(other) में पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [2_रूम](NoOfRooms)(Number) होटल में पुष्टि की जाती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   होटल [हाईट](HotelName)(other) में
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [रु। १०००](Amount)(Number) की पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   दो दिन होटल में पुष्टि की जाती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [डिलक्स](RoomType)(other) कमरे की पुष्टि होटल [हाईट](HotelName)(other) में की जाती है।
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   होटल में [जिम](Amenities)(other) की पुष्टि होती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [अविवाहित](CustomerType)(other) होटल [हाईट](HotelName)(other) में पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   होटल में [कोलकाता](Location)(other) की पुष्टि की जाती है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkout, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [19_जन](checkin)(तिथि) की पुष्टि की गई है
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [2_रूम](NoOfRooms)(Number) की पुष्टि की जाती है
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [रु। १०००](Amount)(Number) की पुष्टि की जाती है
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   दो दिन की पुष्टि की जाती है
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [हाईट](HotelName)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_hotelname, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [डिलक्स](RoomType)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [वाईफ़ाई](Amenities)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [अविवाहित](CustomerType)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [कोलकाता](Location)(other) की पुष्टि की है इसे बुक करें
+* HotelSearch, ask_checkout, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि [19_जन](checkin)(Date)
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि [2_रूम](NoOfRooms)(Number)
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि [रु। १०००](Amount)(Number)
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि करें दो दिन
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि करें [हाईट](HotelName)(other)
+* HotelSearch, ask_hotelname, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि करें [डिलक्स](RoomType)(other)
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि करें [वाईफाई](Amenities)(other)
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि [अविवाहित](CustomerType)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पुष्टि [कोलकाता](Location)(other)
+* HotelSearch, ask_checkout, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [19_जन](checkin)(Date) के लिए जाएं
+* HotelSearch, ask_hotelname, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [2_रूम](NoOfRooms)(Number) के लिए जाएं
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [रु। १०००](Amount)(Number) के लिए जाएं
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   दो दिन के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [हाईट](HotelName)(other) के लिए जाएं
+* HotelSearch, ask_hotelname, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [डिलक्स](RoomType)(other) के लिए जाएं
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [वाईफाई](Amenities)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [अविवाहित](CustomerType)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [कोलकाता](Location)(other) के लिए जाएं
+* HotelSearch, ask_checkout, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   [19_जन](checkin)(Date) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें [2_rooms](NoOfRooms)(Number) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें कि [रु। १०००](Amount)(Number)
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें दो दिन के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें कि [हाईट](HotelName)(other) के लिए जाएं
+* HotelSearch, ask_hotelname, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें कि [डिलक्स](RoomType)(other) के लिए जाएं
+* HotelSearch, ask_location, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें कि [जिम](Amenities)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें कि [अविवाहित](CustomerType)(other) के लिए जाएं
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करने के लिए जाना [कोलकाता](Location)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करने के लिए जाना [कोलकाता](Location)(other)
+* HotelSearch, ask_checkin, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करने के लिए जाना [कोलकाता](Location)(other)
+## intent:Affirmation+Payment
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   आप इसकी पुष्टि कर सकते हैं
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   सुनिश्चित करें कि हम इसके साथ आगे बढ़ सकते हैं
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   की पुष्टि!
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ इसके लिए जाओ
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   इसके लिए जाओ
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   महान सौदा, इसके लिए जाओ
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   ज़रूर जाना
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ उस होटल की पुष्टि करें
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   मैं इसके साथ आगे बढ़ना चाहूंगा
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ जारी रखें
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   ज़रूर
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हां यकीनन
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   निश्चित रूप से मैं चाहता हूं
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ कृपया
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   पूर्ण रूप से
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   कर दो
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ इसे आरक्षित करें
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   किया हुआ
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   आगे बढ़ें
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   मैं पिछली बार की तरह ही कमरा बुक करना चाहता हूं
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   मेरी पिछली बुकिंग दोहराएं
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   हाँ करो इसे
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   ठीक है हो गया
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   माना
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   थैंक्यू, इसके लिए जाओ
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   महान कार्य किया
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   अच्छा विकल्प
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   मेरी बुकिंग [हाईट](HotelName)(other) होटल में पक्की है
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   मेरी बुकिंग होटल [हाईट](HotelName)(other) में पक्की है
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   अद्भुत होटल, किया
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   कृपया इसे करें
+* HotelSearch, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?   इसके लिए इंतजार नहीं कर सकते, यह करो
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?हाँ, मैंने [रु। १०००](Amount)(Number) के लिए भुगतान किया है
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?मैंने दो दिन के लिए भुगतान किया
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?मैंने [हयात](HotelName)(other) के लिए भुगतान किया
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?हाँ, मैंने [डिलक्स](RoomType)(other) के लिए भुगतान किया
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?मैंने [वाईफाई](Amenities)(other) के लिए भुगतान किया
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?मैंने [अविवाहित](CustomerType)(other) के लिए भुगतान किया
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?मैंने [कोलकाता](Location)(other) के लिए भुगतान किया
+* affirmation, ask_payment, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं  ?मैंने [कोलकाता](Location)(other) के लिए भुगतान किया
+## intent:Negation+Payment
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस कमरे के लिए [रु। १०००](Amount)(Number) के साथ आगे बढ़ने को तैयार नहीं हूँ
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहता
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहूंगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  इस कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान करना ठीक नहीं है
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं [2_रूम](NoOfRooms)(Number) कमरे के लिए [Rs_1000](Amount)(Number) के साथ आगे बढ़ने को तैयार नहीं हूं
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं [2_रूम](NoOfRooms)(Number) कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहता
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं [2_रूम](NoOfRooms)(Number) कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहूंगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  [2_रूम](NoOfRooms)(Number) कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान करना ठीक नहीं है
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  इस भुगतान को रोकें।
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  भुगतान रद्द करें।
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  इस भुगतान को आगे न बढ़ाएं।
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  इस भुगतान को रोकें।
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  भुगतान रद्द करें।
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  इस भुगतान को आगे न बढ़ाएं।
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहता
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहूंगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  इस कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान करना ठीक नहीं है
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं [2_रूम](NoOfRooms)(Number) कमरे के लिए [Rs_1000](Amount)(Number) के साथ आगे बढ़ने को तैयार नहीं हूं
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं [2_रूम](NoOfRooms)(Number) कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहता
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं [2_रूम](NoOfRooms)(Number) कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान नहीं करना चाहूंगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  [2_रूम](NoOfRooms)(Number) कक्ष के लिए [रु। १०००](Amount)(Number) का भुगतान करना ठीक नहीं है
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  यह बहुत महंगा है
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  होटल में छूट या वॉन्ट बुक रूम दें [हाईट](HotelName)(other)
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं किसी भी कीमत पर इस कमरे के लिए भुगतान नहीं करेगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  कोई भुगतान नहीं
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  नहीं, मैं इस कमरे के लिए इतना भुगतान नहीं करेगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  कृपया भुगतान विधि बदलें
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  यह बहुत महंगा नहीं है
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मुझे इस होटल से नफरत है, मैं इस कमरे के लिए बिल्कुल भी भुगतान नहीं करूंगा
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  बहुत खराब होटल खराब सेवा के लिए कोई भुगतान नहीं
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस चमकदार कमरे के लिए [रु। १०००](Amount)(Number) का भुगतान करूँगा, कोई मौका नहीं
+* HotelSearch, ask_filter, क्या आप पेमेंट  कंटिन्यू करना चाहतेह हैं ?  मैं इस चमकदार कमरे के लिए [रु। १०००](Amount)(Number) का भुगतान करूँगा, कोई मौका नहीं
+## intent:HotelDetail
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  [हाईट](HotelName)(other) होटल में मुझे सभी [जिम](Amenities)(other) दिखाएँ
+* HotelSearch, ask_checkout,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या कोई कमरा उपलब्ध है [19_जन](checkin)(Date)
+* HotelSearch, ask_checkout,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या [आज](checkinDay)(Day) पर कोई कमरा उपलब्ध है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल देखना चाहूंगा
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल की जाँच करना चाहूँगा
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल की जाँच करना चाहता हूँ
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल देखना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल की जाँच करना चाहता हूँ
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल देखना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे [हाईट](HotelName)(other) होटल के बारे में बताएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  आप मुझे [हयात](HotelName)(other) होटल के बारे में क्या बता सकते हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या सुविधाएं [हाईट](HotelName)(other) होटल हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हाईट](HotelName)(other) का विवरण दिखाएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल की सुविधाओं को देखना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल की सुविधाओं को देखना चाहूंगा
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  [हाईट](HotelName)(other) होटल द्वारा क्या सुविधाएं प्रदान की जाती हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल द्वारा प्रदान की जाने वाली सुविधाएं [होटल](HotelName)(other)
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  [हाईट](HotelName)(other) होटल द्वारा उपलब्ध कराई गई सुविधाएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल देखना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे पांचवें होटल का विवरण दिखाएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हयात](HotelName)(other) अच्छा लग रहा है, क्या आप मुझे इसके बारे में और बता सकते हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे एक कमरा [हयात](HotelName)(other) में बुक करें
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  जाँच करें कि क्या होटल में कोई कमरा उपलब्ध है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  शो [हयात](HotelName)(other)
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  जांचें कि क्या [हाईट](HotelName)(other) के पास [जिम](Amenities)(other) हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  [अविवाहित](CustomerType)(other) को [हाईट](HotelName)(other) में अनुमति दी जाती है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  किस प्रकार की संपत्ति है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे [हाईट](HotelName)(other) में कमरा दिखाएं जिसमें [जिम](Amenities)(other) हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे होटल [हयात](HotelName)(other) में पहले जैसा कमरा बुक करें
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हाईट](HotelName)(other) की रेटिंग क्या है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या [हाईट](HotelName)(other) [अविवाहित](CustomerType)(other) के लिए अच्छा है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या कोई [डिलक्स](RoomType)(other) कमरा [हयात](HotelName)(other) में [अविवाहित](CustomerType)(other) के लिए है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या कोई कमरा [हाईट](HotelName)(other) में है जो एक कमरे में [दो व्यक्ति](NoOfTravellers)(Number) को समायोजित कर सकता ह
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हाईट](HotelName)(other) की रेटिंग क्या है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  जो मालिक है [हाईट](HotelName)(other)
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या [हयात](HotelName)(other) चीनी होटल है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या [हाईट](HotelName)(other) होटल से संबंधित कोई शिकायत है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हाईट](HotelName)(other) में खाना कैसा है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हयात](HotelName)(other) में भोजन महंगा है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं होटल [हाईट](HotelName)(other) में सभी सुविधाओं को जानना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हाईट](HotelName)(other) में 2 लोगों के लिए बजट क्या है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  2 लोगों के लिए भोजन का बजट [रु। १०००](Amount)(Number) से कम है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हयात](HotelName)(other) का आंतरिक सज्जाकार कौन है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे बताएं कि होटल [हाईट](HotelName)(other) का आंतरिक सज्जाकार कौन है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हाईट](HotelName)(other) में किस प्रकार के भोजन मिलते हैं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या [19_जन](checkin)(Date) [हाईट](HotelName)(other) होटल में [दो व्यक्ति](NoOfTravellers)(Number) के लिए कोई कमरा उपलब्ध है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  क्या [दो व्यक्ति](NoOfTravellers)(Number) के लिए [आज](checkinDay)(Day) पर कोई कमरा उपलब्ध है
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल [डीलक्](RoomType)(other) कमरे देखना चाहूंगा
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल [डीलक्](RoomType)(other) कमरों की जाँच करना चाहता हूँ
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल [डीलक्](RoomType)(other) कमरों की जाँच करना चाहता हूँ
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल [डीलक्](RoomType)(other) कमरे देखना चाहता हूँ
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल [डीलक्](RoomType)(other) कमरों की जाँच करना चाहता हूँ
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल [डीलक्](RoomType)(other) कमरे देखना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [होटल](HotelName)(other) द्वारा प्रदान की जाने वाली सुविधाएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  [हाईट](HotelName)(other) होटल द्वारा उपलब्ध कराई गई सुविधाएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मैं [हाईट](HotelName)(other) होटल देखना चाहता हूं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  मुझे [हयात](HotelName)(other) होटल का विवरण दिखाएं
+* HotelSearch, ask_checkin,  क्या आप इसे कन्फर्म करना चाहते हैं ?  होटल [हयात](HotelName)(other) अच्छा लग रहा है, क्या आप मुझे इसके बारे में और बता सकते हैं’
+
+# Lookups
+    Amenities
+        पूल
+        जिम
+        कॉफी हाउस
+        वाई - फाई
+        लिफ़्ट
+        वातानुकूलन
+        बार
+        खाने की दुकान
+        कक्षीय सेवा
+        बालकनी
+        रसोई
+        पार्किंग
+        हीटर
+    Amount
+        110 रु
+        220 रुपये
+        325 रुपये है
+        120 रुपये
+        120 रुपये
+        32013 रुपये है
+        1240 रुपये
+        1202 रुपये
+        1520 रुपये है
+        1203 रुपये
+        100 रु
+        200 रु
+        रुपये 300
+        रुपये 400
+        500 रु
+        रुपये 600
+        रुपए 700
+        रुपये 800
+        रुपए 900
+        रुपये 110
+    checkout
+        1 जनवरी
+        2 जनवरी
+        3 अप्रैल
+        4 अप्रैल
+        5 अप्रैल
+        6 जनवरी
+        7 फरवरी
+        8 जनवरी
+        12 जनवरी
+        24 जनवरी
+        26 फरवरी
+        28 जनवरी
+        17 जनवरी
+        19 मार्च
+        3 मार्च
+        5 मई
+        8 मई
+        31 जून
+        23 जून
+        14 जून
+        22 जुलाई
+        15 जुलाई
+        14 जुलाई
+        17 जुलाई
+        18 अगस्त
+        १३ अगस्त
+        15 अगस्त
+        १ अगस्त
+        19 सितंबर
+        20 सितंबर
+        24 सितंबर
+        21 सितंबर
+        24 सितंबर
+        27 अक्टूबर
+        10 अक्टूबर
+        9 अक्टूबर
+        4 अक्टूबर
+        5 नवम्बर
+        9 नवंबर
+        2 नवंबर
+        8 नवंबर
+        12 दिसंबर
+        21 दिसंबर
+        23 दिसंबर
+        31 दिसंबर
+        29 जनवरी
+        28 जनवरी
+        27 फरवरी
+        26 फरवरी
+        16 मार्च
+        27 मार्च
+        अप्रैल 28
+        अप्रैल 18
+        19 मई
+    checkin
+        1 जनवरी
+        2 जनवरी
+        3 अप्रैल
+        4 अप्रैल
+        5 अप्रैल
+        6 जनवरी
+        7 फरवरी
+        8 जनवरी
+        12 जनवरी
+        24 जनवरी
+        26 फरवरी
+        28 जनवरी
+        17 जनवरी
+        19 मार्च
+        3 मार्च
+        5 मई
+        8 मई
+        31 जून
+        23 जून
+        14 जून
+        22 जुलाई
+        15 जुलाई
+        14 जुलाई
+        17 जुलाई
+        18 अगस्त
+        १३ अगस्त
+        15 अगस्त
+        १ अगस्त
+        19 सितम्बर
+        20 सितम्बर
+        24 सितंबर
+        21 सितंबर
+        24 सितंबर
+        27 अक्टूबर
+        10 अक्टूबर
+        9 अक्टूबर
+        4 अक्टूबर
+        5 नवंबर
+        9 नवंबर
+        2 नवंबर
+        8 नवंबर
+        12 दिसंबर
+        21 दिसंबर
+        23 दिसंबर
+        31 दिसंबर
+        29 जनवरी
+        28 जनवरी
+        27 फरवरी
+        26 फरवरी
+        16 मार्च
+        27 मार्च
+        अप्रैल २ 28
+        अप्रैल 18
+        19 मई
+    CustomerType
+        विवाहित युगल
+        अविवाहित जोड़े
+        दोस्त
+        परिवार
+        जोड़ा
+        मां
+        बहन
+        पिता जी
+ 
+    checkinDay
+        आज
+        आने वाला कल
+        अगले दिन
+        आखरी दिन
+        अगले सप्ताह
+        आज रात
+        बिता कल
+        अगले सप्ताह के लिए
+        सोमवार
+        मंगलवार
+        बुधवार
+        गुरूवार
+        शुक्रवार
+        शनिवार
+        रविवार
+    checkoutDay
+        आज
+        आने वाला कल
+        अगले दिन
+        आखरी दिन
+        अगले सप्ताह
+        आज रात
+        बिता कल
+        अगले सप्ताह के लिए
+        सोमवार
+        मंगलवार
+        बुधवार
+        गुरूवार
+        शुक्रवार
+        शनिवार
+        रविवार
+    Event
+        नए साल का उत्सव
+        मकर संक्रांति
+        पोंगल गणतंत्र दिवस
+        महा शिवरात्रिहोली चैत्र नवरात्र
+        गुड़ी पड़वा राम नवमी महावीर जयंती
+        गुड फ्राइडे
+        मजदूर दिवस
+        बुध पूर्णिमा
+        ईद-उल-Fitar
+        रथयात्रा
+        बकरी ईद
+        ईद-उल-अधा
+        रक्षाबंधन
+        जन्माष्टमी
+        स्वतंत्रता दिवस
+        विनायक चतुर्थी
+        मुहर्रम
+        ओणम
+        महात्मा गांधी
+        जयंती
+        दशहरा
+        मिलाद-उन-नबी
+        दिवाली
+        नानक जयंती
+        क्रिसमस
+    Nationality
+        स्थानीय लोगों
+        भारतीय
+        नागरिकों
+        अंतरराष्ट्रीय
+    NoOfRooms
+        1 कमरा
+        2 कमरा
+        3 कमरा
+        4 कमरा
+        5 कमरा
+        6 कमरा
+        एक कमरा
+        दो कमरा
+        तीन कमरा
+        चार कमरा
+        पाँच कमरा
+        एक कमरा
+    NoOfDay
+        एक दिन
+        2 दिन
+        3 दिन
+        चार दिन
+        पांच दिन
+        6 दिन
+        एक दिन
+        दो दिन
+        तीन दिन
+        चार दिन
+        पांच दिन
+        एक दिन
+ 
+    Location
+    
+        अरुणाचल प्रदेश
+        आंद्रा प्रदेश
+        अफ़ग़ानिस्तान
+        अल्बानिया
+        एलजीरिया
+        अमेरिकन
+        समोआ
+        अंडोरा
+        अंगोला
+        एंगुइला
+        अंटार्कटिका
+        अंतिगुया और बार्बूडा
+        अर्जेंटीना
+        आर्मीनिया
+        अरूबा
+        एशमोर और कार्टियर द्वीप
+        ऑस्ट्रेलिया
+        ऑस्ट्रिया
+        आज़रबाइजान
+        बैंगलोर
+        बहामा
+        बहरीन
+        बांग्लादेश
+        बारबाडोस
+        बेसस दा भारत
+        बेलोरूस
+        बेल्जियम
+        बेलीज
+        बेनिन
+        बरमूडा
+        भूटान
+        बोलीविया
+        बोस्निया और हर्जेगोविना
+        बोत्सवाना
+        बोवेट द्वीप
+        ब्राज़िल
+        ब्रिटेन और भारतीय समुद्री क्षेत्र
+        ब्रिटिश वर्जिन आईलैन्ड्स
+        ब्रुनेई
+        बुल्गारिया
+        बुर्किना फासो
+        बर्मा
+        बुस्र्न्दी
+        कंबोडिया
+        कैमरून
+        कनाडा
+        केप वर्दे
+        केमैन टापू
+        केंद्रीय अफ्रीकन गणराज्य
+        काग़ज़ का टुकड़ा
+        चिली
+        चीन
+        क्रिसमस द्वीप
+        कोकोस (कीलिंग) द्वीप
+        कोलम्बिया
+        कोमोरोस
+        कांगो
+        डेमोक्रेटिक रीपब्लिक ऑफ द कॉंगो
+        कुक द्वीप समूह
+        कोरल सी आइलैंड
+        कोस्टा रिका
+        कोटे डी आइवर
+        क्रोएशिया
+        क्यूबा
+        साइप्रस
+        चेक गणतंत्र
+        दिल्ली
+        डेनमार्क
+        राजस्थान
+        मुंबई
+        कोलकाता
+        गुजरात
+        हैदराबाद
+        पश्चिम बंगाल
+        दिल्ली
+        गोवा
+        जम्मू
+        कश्मीर
+        केरल
+    NoOfTravellers
+        1 व्यक्ति
+        दो व्यक्ति
+        3
+        4
+        5
+        6
+        एक व्यक्ति
+        दो व्यक्ति
+        तीन
+        चार
+        पांच
+        एक व्यक्ति
+        दो यात्री
+    Star_Rate
+        एक सितारा होटल
+        दो सितारा होटल
+        तीन सितारा होटल
+        चार सितारा होटल
+        पाँच सितारा होटल
+        1 सितारा होटल
+        2 स्टार
+        3 सितारा होटल
+        4 स्टार
+        5 सितारा होटल
+    TravelRate
+        एक यात्रा दर
+        दो यात्रा दर
+        तीन यात्रा दर
+        चार यात्रा दर
+        पांच यात्रा दर
+        1 यात्रा दर
+        2 यात्रा दर
+        3 यात्रा दर
+        4 यात्रा दर
+        5 यात्रा दर
+    RoomType
+        डीलक्स
+        सूट
+        डबल लग्जरी
+        एक
+        दोहरा
+        ट्रिपल
+        ट्रैक्टर
+        रानी
+        राजा
+        जुड़वां
+        दुगुना दुगुना
+        स्टूडियो
+        मास्टर कमरा
+        मिनी-सूट या जूनियर सुइट
+        जुड़े कमरे
+        सटा हुआ कमरा
+        बगल के कमरे
+    HotelName
+        हयात
+        मैरियट
+        ताज
+        आईटीसी रॉयल बंगाल
+        पद्मावती
+    BookID
+        456,165
+        5646535
+        1511
+        51653
+        51531635
+        5135135
+        515,314
+        16,355
+        515,154
+        5435
+        5156335
+        16535
+        546
+        7897
+        888
+        79,879
+        13212
+        949,685
+        56,546
+        262,116
+    PropertyType
+        अपार्टमेंट
+        मकान
+        अतिथि गृह
+        होटल
+        आश्रय
+        विला
+        सर्विस्ड अपार्टमेंट
+        बुटीक होटल
