@@ -99,7 +99,7 @@ def intent_balancer(f):
     list_repeat.append((int((max(list2)/i)*(max(list2)/i))))
   return(list33[1:],list_repeat,list44)
  
-f=open('/content/Json_Script/Json_Script/Markdown/lookups.txt','r') 
+f=open('/content/Json_Script/Json_Script/Markdown/lookups','r') 
  
 def entity_fetcher(f):
   list1=[]
